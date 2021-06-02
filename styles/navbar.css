@@ -1,6 +1,16 @@
 nav{
     background: #f2f1ed;
     position: fixed ;
-    width: 5000em;
+    top: 0;
     height: 50px;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+
+}
+nav a {
+    padding: 14px;
+    position: relative;
+    top: 10px;
+    text-align: center;
 }
