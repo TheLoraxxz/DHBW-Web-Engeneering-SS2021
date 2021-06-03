@@ -1,16 +1,23 @@
 nav{
     background: #f2f1ed;
-    position: fixed ;
     top: 0;
+    left: 0px;
+    position: fixed ;
+    display: flex;
     height: 50px;
     width: 100%;
-    overflow: hidden;
-    display: block;
 
 }
-nav a {
-    padding: 14px;
+nav img {
     position: relative;
-    top: 10px;
-    text-align: center;
+    height: 100%;
+    width: 50px;
+}
+nav a{
+    left: 10px;
+    text-decoration: none;
+}
+a:hover,a:visited,a:focus,a:active{
+    text-decoration: none;
+    color: black;
 }

@@ -18,17 +18,21 @@ if(count($_GET)==0){
     </head>
     <body>
         <header>
-            <nav>
-                <a href="./index.php">Unsere Spiele</a>
-                <a href="./index.php?g=overwatch">Overwatch</a>
-                <a href="">Spiel 2</a>
-                <a href="">Spiel 3</a>
+            <nav class="header">
+                <a href="index.php">Spiele</a>
+                <a href="index.php"><img src="./assets/img/world-of-warcraft-logo.svg" alt="World of Warcraft"></a>
+                <a href="index.php"><img src="./assets/img/skyrim-logo.png" alt="Skyrim"></a>
+                <a id="kontakt" href="kontakt.html">Kontakt</a>
+
             </nav>
         </header>
         <?php
         include("./scripts/".$file_name.".php");
         ?>
         <!--Content yet to come -->
-        <footer></footer>
+        <footer>
+                <a>Impressum</a>
+                <a>Datenschutz</a>
+        </footer>
     </body>
 </html>
