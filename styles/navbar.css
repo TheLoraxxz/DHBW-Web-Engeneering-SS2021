@@ -16,6 +16,7 @@ nav img {
 nav a{
     left: 10px;
     text-decoration: none;
+    color: black;
 }
 a:hover,a:visited,a:focus,a:active{
     text-decoration: none;
