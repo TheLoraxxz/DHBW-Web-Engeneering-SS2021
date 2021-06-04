@@ -13,6 +13,8 @@ if(count($_GET)==0){
 <html lang="en">
     <head>
         <link rel="stylesheet" href="./styles/navbar.css">
+        <?php echo('<link rel="stylesheet" href="./styles/'.$file_name.'.css">')    ?>
+        <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.jpg">
         <meta charset="UTF-8">
         <title><?php echo($name); ?></title>
     </head>
@@ -26,6 +28,7 @@ if(count($_GET)==0){
 
             </nav>
         </header>
+        <br><br><br>
         <?php
         include("./scripts/".$file_name.".php");
         ?>

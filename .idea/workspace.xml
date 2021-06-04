@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Made it a one page">
-      <change afterPath="$PROJECT_DIR$/assets/img/skyrim-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/world-of-warcraft-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/favicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/assets.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/home.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -48,6 +47,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\assets\img" />
       <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\scripts" />
       <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering" />
       <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\fonts" />
@@ -66,7 +66,8 @@
       <workItem from="1622620677371" duration="10207000" />
       <workItem from="1622664413834" duration="1986000" />
       <workItem from="1622707865577" duration="4573000" />
-      <workItem from="1622745072348" duration="2090000" />
+      <workItem from="1622745072348" duration="5722000" />
+      <workItem from="1622793268812" duration="1252000" />
     </task>
     <task id="LOCAL-00001" summary="First grundstruktur (ordner fehlen noch aus irgendeinem grund)">
       <created>1622190410231</created>
@@ -96,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622628568477</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Pictures to NavBar+ Making contact button">
+      <created>1622747762176</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622747762176</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +121,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="dev" />
                       </list>
                     </value>
                   </entry>
@@ -131,6 +139,7 @@
     <MESSAGE value="First grundstruktur (mit ordnern?)" />
     <MESSAGE value="Added navbar" />
     <MESSAGE value="Made it a one page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made it a one page" />
+    <MESSAGE value="Added Pictures to NavBar+ Making contact button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Pictures to NavBar+ Making contact button" />
   </component>
 </project>
