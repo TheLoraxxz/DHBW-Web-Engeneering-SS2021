@@ -36,6 +36,7 @@ if(count($_GET)==0){
         <footer>
                 <a>Impressum</a>
                 <a>Datenschutz</a>
+                <p>Die jeweiligen <a>Marken</a> gehören den jewiligen anbietern</p>
         </footer>
     </body>
 </html>

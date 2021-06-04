@@ -1,6 +1,19 @@
 <?php
 ?>
 <div>
+    <video controls autoplay>
+        <source src="../assets/videos/World%20of%20warcraft%20video.mp4" type="video/mp4">
+    </video>
+    <p>Kaufen</p>
+    <ul>
+        <li>World of Warcraft</li>
+        <li>The Elder Scrolls V</li>
+    </ul>
+    <p>Trailer sehen</p>
+    <ul>
+        <li>World of Warcraft</li>
+        <li>The Elder Scrolls V</li>
+    </ul>
     <p>Seit dem 1952 OXO, das erste Computerspiel (ein TicTacToe Spiel)
         mit einem bekannten Namen, erschienen ist, sind tausende von Spielen erschienen.
     Heutzutage erscheinen im stündlichen Takt neue Videospiele mit manchmal komischen Ideen.
