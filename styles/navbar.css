@@ -6,19 +6,19 @@ nav{
     display: flex;
     height: 50px;
     width: 100%;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
 
 }
 nav img {
     position: relative;
-    height: 100%;
     width: 50px;
 }
-nav a{
+nav a,a:hover,a:visited,a:focus,a:active{
     left: 10px;
-    text-decoration: none;
-    color: black;
-}
-a:hover,a:visited,a:focus,a:active{
+    vertical-align: center;
+    height: 100%;
+    position: relative;
     text-decoration: none;
     color: black;
 }

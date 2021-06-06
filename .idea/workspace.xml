@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Home aktualisiert">
+    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Weiterer Ausbau von Webseite home (muss noch die home seite ordentlich gestalten auf papier :D)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/videos/World of warcraft video.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/videos/WoW_Trailer/WoW_background_vid.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navbar.css" afterDir="false" />
@@ -72,7 +72,8 @@
       <workItem from="1622793268812" duration="1252000" />
       <workItem from="1622823382747" duration="599000" />
       <workItem from="1622824472163" duration="601000" />
-      <workItem from="1622829060713" duration="3458000" />
+      <workItem from="1622829060713" duration="3573000" />
+      <workItem from="1622986049593" duration="3358000" />
     </task>
     <task id="LOCAL-00001" summary="First grundstruktur (ordner fehlen noch aus irgendeinem grund)">
       <created>1622190410231</created>
@@ -116,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622824929978</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Weiterer Ausbau von Webseite home (muss noch die home seite ordentlich gestalten auf papier :D)">
+      <created>1622832793151</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622832793151</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +161,7 @@
     <MESSAGE value="Made it a one page" />
     <MESSAGE value="Added Pictures to NavBar+ Making contact button" />
     <MESSAGE value="Home aktualisiert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home aktualisiert" />
+    <MESSAGE value="Weiterer Ausbau von Webseite home (muss noch die home seite ordentlich gestalten auf papier :D)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Weiterer Ausbau von Webseite home (muss noch die home seite ordentlich gestalten auf papier :D)" />
   </component>
 </project>

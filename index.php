@@ -15,7 +15,10 @@ if(count($_GET)==0){
         <link rel="stylesheet" href="./styles/navbar.css">
         <?php echo('<link rel="stylesheet" href="./styles/'.$file_name.'.css">')    ?>
         <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.jpg">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <meta charset="UTF-8">
+        <meta lang="de">
         <title><?php echo($name); ?></title>
     </head>
     <body>
@@ -25,6 +28,7 @@ if(count($_GET)==0){
                 <a href="index.php"><img src="./assets/img/world-of-warcraft-logo.svg" alt="World of Warcraft"></a>
                 <a href="index.php"><img src="./assets/img/skyrim-logo.png" alt="Skyrim"></a>
                 <a id="kontakt" href="kontakt.html">Kontakt</a>
+                <a >Subscribe</a>
 
             </nav>
         </header>

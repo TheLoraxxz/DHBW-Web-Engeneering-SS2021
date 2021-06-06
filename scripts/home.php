@@ -24,14 +24,21 @@
     ihnen unsere Lieblingsspiele zu zeigen. Fabian hat über sein Lieblingsspiel <strong>Skyrim</strong> geschrieben
     während Lukas über sein Lieblingsspiel <strong>World of Warcraft</strong> berichtet hat. Klicke oben einfach
     auf die jeweiligen Icons um etwas über das jeweilige Spiel zu erfahren</p>
+    <h1>Subscription</h1>
+    <p>Wenn ihr bei dieser Webseite Subscribed bekommt ihr extra Inhalt in der nahen Zukunft.
+    Durch das Subscriben bekommen wir ein wenig Geld und können unsere Webseite:
+    <em>lovedgames.de</em> aufrecht erhalten können.
+    Wir werden Ihnen dazu dann in naher Zukunft die Updates zusenden</p>
+    <hr>
     <h1>Lerne das Entwicklerteam kennen</h1>
     <div class="devs">
-        <h2>Tilmann Lorenz</h2>
-        <p>Tilmann Lorenz ist ein Softwareentwickler. er hat schon viele Projekte begleitet
+        <h2>The_Loraxxz</h2>
+        <p>The_Loraxxz ist ein Softwareentwickler. er hat schon viele Projekte begleitet
             wie die App der DHBW Mosbach/ Bad Merengtenheim von der
             Studenten Vertretung. Auch programmierte er in einem 2 Monatigen Praktikum
-            bei einer Softwarefirma in Dresden das Intranet. Ich weiß nicht was
-            ich hier noch schreiben soll. Ich muss allerdings ein wenig Platz füllen :D.
+            bei einer Softwarefirma in Dresden das Intranet. Seinen spitznamen hat er über
+            seinen Nachnamen erlangt und dies wurde dann zum  Start des Films: Der Lorax übernommen.
+            Seitdem hat sich der Spitzname durchgesetzt.
             Er spielt am liebsten Overwatch. Ein äußerst interessantes Spiel, dass durch
             die vielen verschiedenen Helden mit unterschiedlichen Fähigkeiten im
             Shooterbereich bekannt ist.
@@ -39,11 +46,11 @@
         Weiteren auch für die Homepage die Sie gerade ansehen.</p>
     </div>
     <div>
-        <h2>Fabian Zink</h2>
+        <h2>Anon</h2>
         <p><em>blablablbal</em></p>
     </div>
     <div>
-        <h2>Lukas S.</h2>
+        <h2>Lukas Weber</h2>
         <p><em>blablablbal</em></p>
     </div>
 </div>
