@@ -12,23 +12,26 @@ if(count($_GET)==0){
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta lang="de">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./styles/navbar.css">
         <?php echo('<link rel="stylesheet" href="./styles/'.$file_name.'.css">')    ?>
         <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.jpg">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
-        <meta lang="de">
         <title><?php echo($name); ?></title>
     </head>
     <body>
         <header>
             <nav class="header">
-                <a href="index.php">Spiele</a>
-                <a href="index.php"><img src="./assets/img/world-of-warcraft-logo.svg" alt="World of Warcraft"></a>
-                <a href="index.php"><img src="./assets/img/skyrim-logo.png" alt="Skyrim"></a>
-                <a id="kontakt" href="kontakt.html">Kontakt</a>
-                <a >Subscribe</a>
+                <ul>
+                    <li><a href="index.php">Spiele</a></li>
+                    <li><a href="index.php"><img src="./assets/img/world-of-warcraft-logo.svg" alt="World of Warcraft"></a></li>
+                    <li><a href="index.php"><img src="./assets/img/skyrim-logo.png" alt="Skyrim"></a></li>
+                    <li><a id="kontakt" href="kontakt.html">Kontakt</a></li>
+                    <li><a >Subscribe</a></li>
+                </ul>
+
 
             </nav>
         </header>
