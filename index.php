@@ -12,23 +12,38 @@ if(count($_GET)==0){
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="./styles/navbar.css">
         <meta charset="UTF-8">
+        <meta lang="de">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles/navbar.css">
+        <?php echo('<link rel="stylesheet" href="./styles/'.$file_name.'.css">')    ?>
+        <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.jpg">
         <title><?php echo($name); ?></title>
     </head>
     <body>
         <header>
-            <nav>
-                <a href="./index.php">Unsere Spiele</a>
-                <a href="./index.php?g=overwatch">Overwatch</a>
-                <a href="">Spiel 2</a>
-                <a href="">Spiel 3</a>
+            <nav class="header">
+                <ul>
+                    <li><a href="index.php">Spiele</a></li>
+                    <li><a href="index.php"><img src="./assets/img/world-of-warcraft-logo.svg" alt="World of Warcraft"></a></li>
+                    <li><a href="index.php"><img src="./assets/img/skyrim-logo.png" alt="Skyrim"></a></li>
+                    <li><a id="kontakt" href="kontakt.html">Kontakt</a></li>
+                    <li><a >Subscribe</a></li>
+                </ul>
+
+
             </nav>
         </header>
+        <br><br><br>
         <?php
         include("./scripts/".$file_name.".php");
         ?>
         <!--Content yet to come -->
-        <footer></footer>
+        <footer>
+                <a>Impressum</a>
+                <a>Datenschutz</a>
+                <p>Die jeweiligen <a>Marken</a> gehören den jewiligen anbietern</p>
+        </footer>
     </body>
 </html>

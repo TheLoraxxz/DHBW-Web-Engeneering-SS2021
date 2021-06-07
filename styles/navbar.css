@@ -1,16 +1,33 @@
 nav{
     background: #f2f1ed;
-    position: fixed ;
     top: 0;
+    left: 0px;
+    position: fixed ;
+    display: flex;
     height: 50px;
     width: 100%;
-    overflow: hidden;
-    display: block;
+    font-family: 'Roboto Slab',sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
 
 }
-nav a {
-    padding: 14px;
+nav:hover{
+    background: #ecebe8;
+}
+
+nav ul{
+    list-style: none outside none;
+}
+
+nav img {
     position: relative;
-    top: 10px;
-    text-align: center;
+    width: 50px;
+}
+nav a,a:hover,a:visited,a:focus,a:active{
+    left: 10px;
+    vertical-align: center;
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+    color: black;
 }
