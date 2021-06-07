@@ -25,11 +25,11 @@ if(count($_GET)==0){
         <header>
             <nav class="header">
                 <ul>
-                    <li><a href="index.php">Spiele</a></li>
+                    <li><a class="link" href="index.php">Spiele</a></li>
                     <li><a href="index.php"><img src="./assets/img/world-of-warcraft-logo.svg" alt="World of Warcraft"></a></li>
                     <li><a href="index.php"><img src="./assets/img/skyrim-logo.png" alt="Skyrim"></a></li>
-                    <li><a id="kontakt" href="kontakt.html">Kontakt</a></li>
-                    <li><a >Subscribe</a></li>
+                    <li class="left_link"><a class="link" href="kontakt.html">Kontakt</a></li>
+                    <li class="left_link"><a class="link">Subscribe</a></li>
                 </ul>
 
 

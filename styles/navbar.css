@@ -1,14 +1,15 @@
 nav{
     background: #f2f1ed;
     top: 0;
-    left: 0px;
+    left: 0;
     position: fixed ;
-    display: flex;
     height: 50px;
     width: 100%;
+    z-index: 10;
     font-family: 'Roboto Slab',sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
+    overflow: hidden;
 
 }
 nav:hover{
@@ -16,18 +17,33 @@ nav:hover{
 }
 
 nav ul{
-    list-style: none outside none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: max-content;
+    overflow: hidden;
 }
-
-nav img {
+nav li {
+    padding: 0px 10px 0 10px;
+    float: left;
     position: relative;
+    height: 50px;
+}
+nav img {
     width: 50px;
 }
-nav a,a:hover,a:visited,a:focus,a:active{
-    left: 10px;
-    vertical-align: center;
-    height: 100%;
-    position: relative;
+.link,.link:hover,.link:visited,.link:focus,.link:active{
     text-decoration: none;
+    position: relative;
     color: black;
+    top: 30%;
+
+}
+body {
+    z-index: 0;
+}
+.left_link{
+    float: right;
+    margin-right: 20px;
+
 }
