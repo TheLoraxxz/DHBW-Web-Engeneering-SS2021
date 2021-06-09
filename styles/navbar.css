@@ -26,6 +26,7 @@ nav ul{
 nav li {
     padding: 0px 10px 0 10px;
     float: left;
+    margin-left: 20px;
     position: relative;
     height: 50px;
 }
@@ -41,9 +42,12 @@ nav img {
 }
 body {
     z-index: 0;
+    margin: 0 0 0 0;
+
 }
 .left_link{
     float: right;
     margin-right: 20px;
+    margin-left: 0;
 
 }

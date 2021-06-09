@@ -12,8 +12,8 @@ if(count($_GET)==0){
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta lang="de">
+        <meta charset="UTF-8" lang="de">
+
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./styles/navbar.css">
@@ -35,10 +35,11 @@ if(count($_GET)==0){
 
             </nav>
         </header>
-        <br><br><br>
+        <main>
         <?php
         include("./scripts/".$file_name.".php");
         ?>
+        </main>
         <!--Content yet to come -->
         <footer>
                 <a>Impressum</a>
