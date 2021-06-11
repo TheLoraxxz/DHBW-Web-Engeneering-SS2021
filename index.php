@@ -13,10 +13,7 @@ if(count($_GET)==0){
 <html lang="en">
     <head>
         <meta charset="UTF-8" lang="de">
-
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./styles/navbar.css">
+        <link rel="stylesheet" href="styles/index.css">
         <?php echo('<link rel="stylesheet" href="./styles/'.$file_name.'.css">')    ?>
         <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.jpg">
         <title><?php echo($name); ?></title>

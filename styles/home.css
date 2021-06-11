@@ -1,11 +1,28 @@
-div {
-
+@font-face {
+    font-family: 'Roboto Slab-Medium';
+    src: url("./../fonts/Roboto Slab/RobotoSlab-Medium.ttf");
 }
-video{
-    width: 100%;
-    position: relative;
-    left: 0;
-    right: 0;
-    aspect-ratio: auto;
-
+#backgroundvideo a,#backgroundvideo a:hover,#backgroundvideo a:link,#backgroundvideo a:visited,#backgroundvideo a:visited,#backgroundvideo a:active {
+    text-decoration: none;
+    color: black;
+}
+#buy {
+    background-color: #84e200;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 10%;
+}
+#backgroundvideo li{
+    list-style: none;
+}
+#trail{
+    background-color: #45a3c4;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 20%;
+}
+#backgroundvideo {
+    font-family: "Roboto Slab",sans-serif;
 }

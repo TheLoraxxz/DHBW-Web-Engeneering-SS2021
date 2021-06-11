@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Neudesignen navbar.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/videos/Home_Wow_background/WoW_backgroundvid.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +77,9 @@
       <workItem from="1622986049593" duration="3407000" />
       <workItem from="1622990944970" duration="2184000" />
       <workItem from="1623160704894" duration="6308000" />
-      <workItem from="1623223304558" duration="5261000" />
+      <workItem from="1623223304558" duration="12197000" />
+      <workItem from="1623402907163" duration="603000" />
+      <workItem from="1623412168446" duration="3934000" />
     </task>
     <task id="LOCAL-00001" summary="First grundstruktur (ordner fehlen noch aus irgendeinem grund)">
       <created>1622190410231</created>
@@ -152,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623226053975</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Redesign sodass es responsive ist">
+      <created>1623228987341</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623228987341</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +206,7 @@
     <MESSAGE value="Funktionswebseite Home und Basis ist weitesgehend durch" />
     <MESSAGE value="Neudesignen navbar.css" />
     <MESSAGE value="Erstes Font und Video funktioniert auf HOME" />
-    <option name="LAST_COMMIT_MESSAGE" value="Erstes Font und Video funktioniert auf HOME" />
+    <MESSAGE value="Redesign sodass es responsive ist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redesign sodass es responsive ist" />
   </component>
 </project>

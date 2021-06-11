@@ -1,24 +1,41 @@
 <?php
 ?>
 <div>
-    <div>
-        <aside>
-            bla
-        </aside>
-        <video controls autoplay>
-            <source src="./assets/videos/Home_Wow_background/WoW_backgroundvid.mp4" codecs="avc1.42E01E, mp4a.40.2" type="video/mp4">
-            <source src="../assets/videos/" type="video/webm">
+    <aside>
+        bla
+    </aside>
+    <div id="backgroundvideo">
+        <video autoplay muted loop playsinline="playsinline">
+            <source src="./assets/videos/Home_Wow_background/Wow_background.mp4" type="video/mp4">
+            Your Video is not supported by your browser
         </video>
-        <p>Kaufen</p>
-        <ul>
-            <li>World of Warcraft</li>
-            <li>The Elder Scrolls V</li>
-        </ul>
-        <p>Trailer sehen</p>
-        <ul>
-            <li>World of Warcraft</li>
-            <li>The Elder Scrolls V</li>
-        </ul>
+        <span id="buy">
+            Spiele Kaufen
+            <ul>
+                <li><a href="https://eu.shop.battle.net/de-de/product/world-of-warcraft-shadowlands?gclid=Cj0KCQjwk4yGBhDQARIsACGfAeu6uKM4l4s5HsZLJu5H6rkdkm9F4CTuVAJU0fp1gT0FWFDX1T7O5yQaAt6eEALw_wcB&gclsrc=aw.ds" target="_blank">
+                        World of Warcraft</a>
+                </li>
+                <li>
+                    <a href="https://store.steampowered.com/app/72850/The_Elder_Scrolls_V_Skyrim/" target="_blank">
+                        The Elder Scrolls V
+                    </a>
+                </li>
+            </ul>
+        </span>
+        <span id="trail">
+            <p>Trailer sehen</p>
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=vlVSJ0AvZe0" target="_blank">
+                        World of Warcraft
+                    </a>
+                </li>
+                <li><a href="https://www.youtube.com/watch?v=JSRtYpNRoN0" target="_blank">
+                        The Elder Scrolls 5
+                    </a>
+                </li>
+            </ul>
+        </span>
     </div>
     <h1>Worum geht es?</h1>
     <p>Seit dem 1952 OXO, das erste Computerspiel (ein TicTacToe Spiel)
