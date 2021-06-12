@@ -1,28 +1,73 @@
 @font-face {
-    font-family: 'Roboto Slab-Medium';
-    src: url("./../fonts/Roboto Slab/RobotoSlab-Medium.ttf");
+    font-family: 'Rubik';
+    src: url("./../fonts/Rubik/static/Rubik-Black.ttf");
 }
-#backgroundvideo a,#backgroundvideo a:hover,#backgroundvideo a:link,#backgroundvideo a:visited,#backgroundvideo a:visited,#backgroundvideo a:active {
-    text-decoration: none;
-    color: black;
+#backgroundvideo {
+    font-family: "Rubik",sans-serif;
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    letter-spacing: 3px;
+    display: block;
+    overflow: hidden;
+    color: white;
+    z-index: -1;
+}
+#backgroundvideo span{
+    padding: 0 40px 0 40px;
+    font-size: 21px;
+    line-height: 21px;
+    width: 200px;
+    text-transform: uppercase;
+    height: 50%;
+    text-align: center;
 }
 #buy {
     background-color: #84e200;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 10%;
 }
-#backgroundvideo li{
-    list-style: none;
+#buy:hover ul{
+    display: block;
 }
 #trail{
     background-color: #45a3c4;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 20%;
 }
-#backgroundvideo {
-    font-family: "Roboto Slab",sans-serif;
+#trail:hover ul{
+    display: block;
+}
+#backgroundvideo ul {
+    padding-left: 0;
+    display:none;
+    list-style: none;
+}
+#backgroundvideo video {
+    position: absolute;
+    height: inherit;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#info_container {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#backgroundvideo a,#backgroundvideo a:hover,#backgroundvideo a:link,#backgroundvideo a:visited,#backgroundvideo a:visited,#backgroundvideo a:active {
+    text-decoration: none;
+    color: white;
+}
+#uebergang {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    top: -80px;
+    background: rgba(0,0,0,0);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(255,255,255,255) 90%);
+
+
 }

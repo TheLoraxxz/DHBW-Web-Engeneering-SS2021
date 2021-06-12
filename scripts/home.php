@@ -9,16 +9,15 @@
             <source src="./assets/videos/Home_Wow_background/Wow_background.mp4" type="video/mp4">
             Your Video is not supported by your browser
         </video>
+        <div id="info_container">
         <span id="buy">
-            Spiele Kaufen
+            <p>Spiele kaufen</p>
             <ul>
-                <li><a href="https://eu.shop.battle.net/de-de/product/world-of-warcraft-shadowlands?gclid=Cj0KCQjwk4yGBhDQARIsACGfAeu6uKM4l4s5HsZLJu5H6rkdkm9F4CTuVAJU0fp1gT0FWFDX1T7O5yQaAt6eEALw_wcB&gclsrc=aw.ds" target="_blank">
-                        World of Warcraft</a>
+                <li>
+                    <a href="https://eu.shop.battle.net/de-de/product/world-of-warcraft-shadowlands?gclid=Cj0KCQjwk4yGBhDQARIsACGfAeu6uKM4l4s5HsZLJu5H6rkdkm9F4CTuVAJU0fp1gT0FWFDX1T7O5yQaAt6eEALw_wcB&gclsrc=aw.ds" target="_blank">World of Warcraft</a>
                 </li>
                 <li>
-                    <a href="https://store.steampowered.com/app/72850/The_Elder_Scrolls_V_Skyrim/" target="_blank">
-                        The Elder Scrolls V
-                    </a>
+                    <a href="https://store.steampowered.com/app/72850/The_Elder_Scrolls_V_Skyrim/" target="_blank">The Elder Scrolls V</a>
                 </li>
             </ul>
         </span>
@@ -26,17 +25,15 @@
             <p>Trailer sehen</p>
             <ul>
                 <li>
-                    <a href="https://www.youtube.com/watch?v=vlVSJ0AvZe0" target="_blank">
-                        World of Warcraft
-                    </a>
+                    <a href="https://www.youtube.com/watch?v=vlVSJ0AvZe0" target="_blank">World of Warcraft</a>
                 </li>
-                <li><a href="https://www.youtube.com/watch?v=JSRtYpNRoN0" target="_blank">
-                        The Elder Scrolls 5
-                    </a>
+                <li><a href="https://www.youtube.com/watch?v=JSRtYpNRoN0" target="_blank">The Elder Scrolls 5</a>
                 </li>
             </ul>
         </span>
+        </div>
     </div>
+    <div id="uebergang"></div>
     <h1>Worum geht es?</h1>
     <p>Seit dem 1952 OXO, das erste Computerspiel (ein TicTacToe Spiel)
         mit einem bekannten Namen, erschienen ist, sind tausende von Spielen erschienen.
