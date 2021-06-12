@@ -41,9 +41,11 @@ if(count($_GET)==0){
             </header>
             <main>
             <?php
-            if ($file_name=="impressum" or $file_name=="datenschutz" or $file_name=="kontakt") {
+            if ($file_name=="impressum" or $file_name=="datenschutz") {
                 include("./".$file_name.".html");
-            } else {
+            } elseif ( $file_name=="kontakt"){
+                include("./kontakt.php");
+            }else {
                 include("./scripts/" . $file_name . ".php");
             }
             ?>
