@@ -2,7 +2,10 @@
     font-family: 'Roboto Slab-Medium';
     src: url("./../fonts/Roboto Slab/RobotoSlab-Medium.ttf");
 }
-
+@font-face {
+    font-family: 'Roboto Slab light';
+    src: url("./../fonts/Roboto Slab/RobotoSlab-Light.ttf");
+}
 nav{
     background: #f2f1ed;
     top: 0;
@@ -15,10 +18,7 @@ nav{
 nav:hover{
     background: #ecebe8;
 }
-body {
-    margin: 0 0 0 0;
 
-}
 
 @media only screen and (min-width: 200px) {
     nav{
@@ -64,4 +64,42 @@ body {
 
     }
 
+}
+html,body {
+    margin: 0 0 0 0;
+    height: 100%;
+}
+main {
+    padding-bottom: 200px;
+}
+footer {
+    font-family: "Roboto Slab-Medium",sans-serif;
+    clear: both;
+    background: #1d1d1d;
+    background-image: radial-gradient(#343434,#1d1d1d);
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+footer span{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+footer a,footer a:hover,footer a:visited,footer a:active, footer a:focus, footer p {
+    text-decoration: none;
+    color: #dbdbdb;
+}
+footer p {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.container {
+    min-height: 100%;
+    position: relative;
 }

@@ -2,6 +2,10 @@
     font-family: 'Rubik';
     src: url("./../fonts/Rubik/static/Rubik-Black.ttf");
 }
+@font-face {
+    font-family: "Rubik normal";
+    src: url("./../fonts/Rubik/static/Rubik-Light.ttf");
+}
 #backgroundvideo {
     font-family: "Rubik",sans-serif;
     position: relative;
@@ -13,7 +17,7 @@
     color: white;
 }
 #backgroundvideo span{
-    padding: 0 40px 0 40px;
+    padding: 0 30px 0 30px;
     font-size: 21px;
     line-height: 21px;
     width: 200px;
@@ -26,18 +30,23 @@
 }
 #buy:hover>ul{
     display: block;
+    margin: 0 0 0 0;
 }
 #trail{
     background-color: #45a3c4;
 }
 #trail:hover>ul{
     display: block;
+    margin: 0 0 0 0;
 }
 #backgroundvideo ul {
     padding-left: 0;
     display:none;
     position: relative;
     list-style: none;
+}
+#backgroundvideo li {
+    padding-bottom: 10px;
 }
 #backgroundvideo video {
     position: absolute;
@@ -51,10 +60,13 @@
 #info_container {
     position: absolute;
     display: flex;
-    top: 50%;
+    top: 40%;
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
+}
+#backgroundvideo p {
+    margin: 15px 0 15px 0;
 }
 #backgroundvideo a,#backgroundvideo a:hover,#backgroundvideo a:link,#backgroundvideo a:visited,#backgroundvideo a:visited,#backgroundvideo a:active {
     text-decoration: none;
@@ -74,4 +86,5 @@
     padding: 0 20px 0 20px;
     position: relative;
     top:-80px;
+    font-family: "Rubik normal",sans-serif;
 }

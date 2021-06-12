@@ -4,9 +4,12 @@ $file_name="";
 if(count($_GET)==0){
     $name ="Unsere Lieblingsspiele";
     $file_name="home";
-}elseif ($_GET['g']=="overwatch") {
-    $name ="Overwatch";
-    $file_name="overwatch";
+}elseif ($_GET['s']=="Impressum") {
+    $name ="Impressum";
+    $file_name="impressum";
+} elseif ($_GET['s']=="datsec") {
+    $name ="Datenschutz";
+    $file_name="datenschutz";
 }
 ?>
 <!DOCTYPE html>
@@ -19,30 +22,36 @@ if(count($_GET)==0){
         <title><?php echo($name); ?></title>
     </head>
     <body>
-        <header>
-            <nav class="header">
-                <ul>
-                    <li><a class="link" href="index.php">Spiele</a></li>
-                    <li><a href="index.php"><img src="./assets/img/world-of-warcraft-logo.svg" alt="World of Warcraft"></a></li>
-                    <li><a href="index.php"><img src="./assets/img/skyrim-logo.png" alt="Skyrim"></a></li>
-                    <li class="left_link"><a class="link" href="kontakt.html">Kontakt</a></li>
-                    <li class="left_link"><a class="link">Subscribe</a></li>
-                </ul>
+        <div class="container">
+            <header>
+                <nav class="header">
+                    <ul>
+                        <li><a class="link" href="index.php">Spiele</a></li>
+                        <li><a href="index.php"><img src="./assets/img/world-of-warcraft-logo.svg" alt="World of Warcraft"></a></li>
+                        <li><a href="index.php"><img src="./assets/img/skyrim-logo.png" alt="Skyrim"></a></li>
+                        <li class="left_link"><a class="link" href="kontakt.html">Kontakt</a></li>
+                        <li class="left_link"><a class="link">Subscribe</a></li>
+                    </ul>
 
 
-            </nav>
-        </header>
-        <main>
-        <?php
-        include("./scripts/".$file_name.".php");
-        ?>
-        </main>
-        <hr>
-        <!--Content yet to come -->
-        <footer>
-                <a>Impressum</a>
-                <a>Datenschutz</a>
-                <p>Die jeweiligen <a>Marken</a> gehören den jewiligen anbietern</p>
-        </footer>
+                </nav>
+            </header>
+            <main>
+            <?php
+            if ($file_name=="impressum" or $file_name=="datenschutz" or $file_name=="kontakt") {
+                include("./".$file_name.".html");
+            } else {
+                include("./scripts/" . $file_name . ".php");
+            }
+            ?>
+            </main>
+            <footer>
+                    <span>
+                        <a href="index.php?s=Impressum">Impressum</a>
+                        <a href="index.php?s=datsec">Datenschutz</a>
+                    </span>
+                    <p>Die jeweiligen&nbsp;<a>Marken</a>&nbsp;gehören den jewiligen Firmen</p>
+            </footer>
+        </div>
     </body>
 </html>

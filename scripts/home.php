@@ -44,9 +44,10 @@
     ihnen unsere Lieblingsspiele zu zeigen. Fabian hat über sein Lieblingsspiel <strong>Skyrim</strong> geschrieben
     während Lukas über sein Lieblingsspiel <strong>World of Warcraft</strong> berichtet hat. Klicke oben einfach
     auf die jeweiligen Icons um etwas über das jeweilige Spiel zu erfahren</p>
+    <img src="./assets/img/OXO.jpg" alt="OXO, eines der ersten Programmierspiele">
     <h1>Subscription</h1>
     <p>Wenn ihr bei dieser Webseite Subscribed bekommt ihr extra Inhalt in der nahen Zukunft.
     Durch das Subscriben bekommen wir ein wenig Geld und können unsere Webseite:
     <em>lovedgames.de</em> aufrecht erhalten können.
-    Wir werden Ihnen dazu dann in naher Zukunft die Updates zusenden</p>
+    Wir werden Ihnen dazu dann in naher Zukunft die Updates zusenden.</p>
 </div>
