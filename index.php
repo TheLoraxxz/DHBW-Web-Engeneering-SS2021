@@ -37,6 +37,7 @@ if(count($_GET)==0){
         include("./scripts/".$file_name.".php");
         ?>
         </main>
+        <hr>
         <!--Content yet to come -->
         <footer>
                 <a>Impressum</a>
