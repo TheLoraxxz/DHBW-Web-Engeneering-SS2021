@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Neudesignen navbar.css">
-      <change afterPath="$PROJECT_DIR$/styles/datenschutz.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/kontakt.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datenschutz.html" beforeDir="false" afterPath="$PROJECT_DIR$/datenschutz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/impressum.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/impressum.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/impressum.html" beforeDir="false" afterPath="$PROJECT_DIR$/impressum.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +85,7 @@
       <workItem from="1623402907163" duration="603000" />
       <workItem from="1623412168446" duration="16787000" />
       <workItem from="1623486701760" duration="10687000" />
-      <workItem from="1623521265337" duration="5483000" />
+      <workItem from="1623521265337" duration="5708000" />
     </task>
     <task id="LOCAL-00001" summary="First grundstruktur (ordner fehlen noch aus irgendeinem grund)">
       <created>1622190410231</created>
@@ -212,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623525626666</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="kontakt.php mit basic formular hinzugefügt (!noch nicht formatiert) + datenschutz.html hinzugefügt">
+      <created>1623526802034</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1623526802034</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +260,7 @@
     <MESSAGE value="Fixed problem that it wont select anything else" />
     <MESSAGE value="Deleted unnaccassary stuff + designed fooder and made it look pretty" />
     <MESSAGE value="Footer fertig designed und impressum.html richtig eingebunden" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer fertig designed und impressum.html richtig eingebunden" />
+    <MESSAGE value="kontakt.php mit basic formular hinzugefügt (!noch nicht formatiert) + datenschutz.html hinzugefügt" />
+    <option name="LAST_COMMIT_MESSAGE" value="kontakt.php mit basic formular hinzugefügt (!noch nicht formatiert) + datenschutz.html hinzugefügt" />
   </component>
 </project>
