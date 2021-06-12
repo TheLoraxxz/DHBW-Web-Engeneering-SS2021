@@ -10,6 +10,9 @@ if(count($_GET)==0){
 } elseif ($_GET['s']=="datsec") {
     $name ="Datenschutz";
     $file_name="datenschutz";
+} elseif ($_GET['s']=="kontakt") {
+    $name="Kontaktformular";
+    $file_name=$_GET['s'];
 }
 ?>
 <!DOCTYPE html>
@@ -29,7 +32,7 @@ if(count($_GET)==0){
                         <li><a class="link" href="index.php">Spiele</a></li>
                         <li><a href="index.php"><img src="./assets/img/world-of-warcraft-logo.svg" alt="World of Warcraft"></a></li>
                         <li><a href="index.php"><img src="./assets/img/skyrim-logo.png" alt="Skyrim"></a></li>
-                        <li class="left_link"><a class="link" href="kontakt.html">Kontakt</a></li>
+                        <li class="left_link"><a class="link" href="index.php?s=kontakt">Kontakt</a></li>
                         <li class="left_link"><a class="link">Subscribe</a></li>
                     </ul>
 
@@ -46,11 +49,14 @@ if(count($_GET)==0){
             ?>
             </main>
             <footer>
-                    <span>
-                        <a href="index.php?s=Impressum">Impressum</a>
-                        <a href="index.php?s=datsec">Datenschutz</a>
-                    </span>
-                    <p>Die jeweiligen&nbsp;<a>Marken</a>&nbsp;gehören den jewiligen Firmen</p>
+                <hr>
+                <div class="footer">
+                <span>
+                    <a href="index.php?s=Impressum">Impressum</a>
+                    <a href="index.php?s=datsec">Datenschutz</a>
+                </span>
+                <p>Die jeweiligen&nbsp;<a>Marken</a>&nbsp;gehören den jewiligen Firmen</p>
+                </div>
             </footer>
         </div>
     </body>

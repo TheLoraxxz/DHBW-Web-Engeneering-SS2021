@@ -18,8 +18,6 @@ nav{
 nav:hover{
     background: #ecebe8;
 }
-
-
 @media only screen and (min-width: 200px) {
     nav{
         height: 100px;
@@ -67,6 +65,7 @@ nav:hover{
 }
 html,body {
     margin: 0 0 0 0;
+    padding: 0 0 0 0;
     height: 100%;
 }
 main {
@@ -77,23 +76,38 @@ footer {
     clear: both;
     background: #1d1d1d;
     background-image: radial-gradient(#343434,#1d1d1d);
-    display: flex;
     position: absolute;
+    padding: 0;
     bottom: 0;
     width: 100%;
     height: 200px;
+    border-bottom: 3px solid #1d1d1d;
+
+}
+hr {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 2px solid #6e6e6e;
+}
+.footer {
+    display: flex;
+    height: inherit;
     flex-direction: column;
     justify-content: space-around;
 }
-footer span{
+.footer span{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
-footer a,footer a:hover,footer a:visited,footer a:active, footer a:focus, footer p {
+footer a,footer a:hover,footer a:visited,footer a:active, footer a:focus {
     text-decoration: none;
-    color: #dbdbdb;
+    color: #c3c3c3;
 }
+footer p {
+    color: white;
+}
+
 footer p {
     display: flex;
     justify-content: center;

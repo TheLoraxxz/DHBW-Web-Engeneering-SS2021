@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Rubik normal";
+    src: url("./../fonts/Rubik/static/Rubik-Light.ttf");
+}
+.content {
+    padding: 50px 20px 0 20px;
+    font-family: "Rubik normal",sans-serif;
+}
