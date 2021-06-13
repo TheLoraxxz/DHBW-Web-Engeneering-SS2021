@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Roboto Slab-Medium';
+    src: url("./../fonts/Roboto Slab/RobotoSlab-Medium.ttf");
+}
+@font-face {
+    font-family: 'Roboto Slab light';
+    src: url("./../fonts/Roboto Slab/RobotoSlab-Light.ttf");
+}
+nav{
+    background: #f2f1ed;
+    top: 0;
+    left: 0;
+    position: fixed ;
+    z-index: 10;
+    font-family: "Roboto Slab-Medium",sans-serif;
+    overflow: hidden;
+}
+nav:hover{
+    background: #ecebe8;
+}
+@media only screen and (min-width: 200px) {
+    nav{
+        height: 100px;
+    }
+}
+
+@media only screen and (min-width: 500px){
+    nav{
+        height: 50px;
+        width: 100%;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        height: max-content;
+        overflow: hidden;
+    }
+    nav li {
+        padding: 0px 10px 0 10px;
+        float: left;
+        margin-left: 20px;
+        position: relative;
+        height: 50px;
+    }
+    nav img {
+        width: 50px;
+    }
+    .link,.link:hover,.link:visited,.link:focus,.link:active{
+        text-decoration: none;
+        position: relative;
+        color: black;
+        top: 30%;
+
+    }
+    .left_link{
+        float: right;
+        margin-right: 20px;
+        margin-left: 0;
+
+    }
+
+}
+html,body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 100%;
+}
+main {
+    padding-bottom: 200px;
+}
+footer {
+    font-family: "Roboto Slab-Medium",sans-serif;
+    clear: both;
+    background: #1d1d1d;
+    background-image: radial-gradient(#343434,#1d1d1d);
+    position: absolute;
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    border-bottom: 3px solid #1d1d1d;
+
+}
+footer hr {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 2px solid #6e6e6e;
+}
+.footer {
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer span{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+footer a,footer a:hover,footer a:visited,footer a:active, footer a:focus {
+    text-decoration: none;
+    color: #c3c3c3;
+}
+footer p {
+    color: white;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.container {
+    min-height: 100%;
+    position: relative;
+}
