@@ -89,8 +89,18 @@
 }
 .content span{
     display: flex;
+    justify-content: space-around;
+    box-shadow: #c5c5c5 8px 8px 8px;
+    border-radius: 8px;
+    background: #f6f6f6;
+    padding: 20px;
+
 }
 img[src="./assets/img/OXO.jpg"] {
     position: relative;
+    width: 100%;
+}
+img[src="./assets/img/OXO.jpg"] ~ figcaption {
+    margin-top: 10px;
     width: 100%;
 }

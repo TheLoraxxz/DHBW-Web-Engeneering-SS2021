@@ -51,8 +51,11 @@
         </figure>
     </span>
     <h1>Subscription</h1>
+    <span>
     <p>Wenn ihr bei dieser Webseite Subscribed bekommt ihr extra Inhalt in der nahen Zukunft.
     Durch das Subscriben bekommen wir ein wenig Geld und können unsere Webseite:
     <em>lovedgames.de</em> aufrecht erhalten können.
     Wir werden Ihnen dazu dann in naher Zukunft die Updates zusenden.</p>
+    <button>Subscribe Now</button>
+    </span>
 </div>
