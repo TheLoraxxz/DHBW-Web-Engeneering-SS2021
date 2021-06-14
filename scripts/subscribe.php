@@ -6,7 +6,7 @@ if(count($_GET)==1) {
 <div class="content">
     <h1>Warum Subscriben?</h1>
     <p>Jetzt Pro-mitglied werden von <em>lovedgames.de</em><br>
-    Nur 0,99€ / Monat</p>
+    Ab 0,99€ / Monat</p>
     <h2>Vorteile</h2>
     <article>
         <h3>Unterstützung unseres Projektes</h3>
