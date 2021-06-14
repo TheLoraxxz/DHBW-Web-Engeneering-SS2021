@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="">
+    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Design von home.php fertig --&gt; webm format für Video muss noch eingebunden werden">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.css" afterDir="false" />
     </list>
@@ -91,7 +90,7 @@
       <workItem from="1623590757698" duration="2924000" />
       <workItem from="1623659583671" duration="2594000" />
       <workItem from="1623663689476" duration="2946000" />
-      <workItem from="1623677518202" duration="1026000" />
+      <workItem from="1623677518202" duration="1419000" />
     </task>
     <task id="LOCAL-00001" summary="First grundstruktur (ordner fehlen noch aus irgendeinem grund)">
       <created>1622190410231</created>
@@ -240,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623662169702</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Design von home.php fertig --&gt; webm format für Video muss noch eingebunden werden">
+      <created>1623678639685</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1623678639685</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +297,7 @@
     <MESSAGE value="Impressum bearbeitet" />
     <MESSAGE value="Umdesign des Img in home.php" />
     <MESSAGE value="Design der zwischen teile + Hinzufügen eines Sub now buttons auf der Homepage -&gt; fehlt noch icon dazu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Design der zwischen teile + Hinzufügen eines Sub now buttons auf der Homepage -&gt; fehlt noch icon dazu" />
+    <MESSAGE value="Design von home.php fertig --&gt; webm format für Video muss noch eingebunden werden" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design von home.php fertig --&gt; webm format für Video muss noch eingebunden werden" />
   </component>
 </project>

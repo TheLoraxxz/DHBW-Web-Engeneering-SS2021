@@ -87,7 +87,7 @@
     position: relative;
     font-family: "Rubik normal",sans-serif;
 }
-.content span{
+.content article{
     display: flex;
     justify-content: space-around;
     box-shadow: #c5c5c5 8px 8px 8px;
@@ -96,8 +96,8 @@
     padding: 20px;
 
 }
-.content span p{
-    margin-right: 5%;
+.content article p{
+    margin-right: 1%;
 }
 img[src="./assets/img/OXO.jpg"] {
     position: relative;
