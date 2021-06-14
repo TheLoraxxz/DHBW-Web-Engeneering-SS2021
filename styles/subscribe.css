@@ -6,19 +6,97 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    text-align: center;
     justify-content: space-around;
-    padding: 50px 20px 0 20px;
+    padding: 50px 20px 30px 20px;
     font-family: "Rubik normal",sans-serif;
 }
 .chos_content article {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 .chos_content article span {
     padding-right: 5%;
+    padding-left: 5%;
+    width: 20%;
+    text-align: center;
     border-collapse: collapse;
 }
 .chos_content article:first-child {
     padding-left: 5%;
+}
+.chos_content img,.chos_content i {
+    width: 50%;
+    max-height: 110px;
+}
+.chos_content h3 {
+    height: 44px;
+}
+.vorteile p{
+    color: #7a7a7a;
+    font-size: 12px;
+    line-height: 20px;
+}
+#chos_choose p{
+    text-align: left;
+}
+#chos_choose span {
+    box-shadow: #b4b4b0 4px 4px 4px 4px;
+    margin: 40px;
+    border-radius: 15px;
+}
+#chos_choose button{
+    border: none;
+    background: #302420;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+#chos_choose button:hover{
+    background: #1f1814;
+}
+/*################## In content ###################### */
+.in_content{
+    padding: 50px 20px 30px 20px;
+    font-family: "Rubik normal",sans-serif;
+}
+.in_content form {
+    display: flex;
+    flex-direction: column;
+}
+.in_content form span {
+    padding-bottom: 20px ;
+}
+.in_content form label {
+    display: inline-block;
+    padding-right: 20px;
+    width: 10%;
+}
+.in_content form input[type=text] {
+    margin-right: 20px;
+    padding: 17px 20px;
+    border-radius: 7px;
+    border: 1px solid #b4b4b0;
+}
+#hidden{
+    display: none;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+#card input{
+    margin-bottom: 20px;
+}
+.in_content hr {
+    color: #302420;
+    z-index: 5;
 }

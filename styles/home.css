@@ -96,6 +96,7 @@
     padding: 20px;
 
 }
+
 .content article p{
     margin-right: 1%;
 }
@@ -122,7 +123,4 @@ button i {
 }
 button i:hover {
     color: #ffffff;
-}
-button a {
-    padding: 20px;
 }
