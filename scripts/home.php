@@ -36,6 +36,7 @@
 <div id="uebergang"></div>
 <div class="content">
     <h1>Worum geht es?</h1>
+    <span>
         <p>Seit dem 1952 OXO, das erste Computerspiel (ein TicTacToe Spiel)
                 mit einem bekannten Namen, erschienen ist, sind tausende von Spielen erschienen.
             Heutzutage erscheinen im stündlichen Takt neue Videospiele mit manchmal komischen Ideen.
@@ -48,6 +49,7 @@
             <img src="./assets/img/OXO.jpg" alt="OXO, eines der ersten Programmierspiele">
             <figcaption>Das erste Spiel das große Bekanntheit erlangte</figcaption>
         </figure>
+    </span>
     <h1>Subscription</h1>
     <p>Wenn ihr bei dieser Webseite Subscribed bekommt ihr extra Inhalt in der nahen Zukunft.
     Durch das Subscriben bekommen wir ein wenig Geld und können unsere Webseite:

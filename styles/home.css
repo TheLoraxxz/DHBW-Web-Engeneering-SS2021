@@ -87,3 +87,10 @@
     position: relative;
     font-family: "Rubik normal",sans-serif;
 }
+.content span{
+    display: flex;
+}
+img[src="./assets/img/OXO.jpg"] {
+    position: relative;
+    width: 100%;
+}

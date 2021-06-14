@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Neudesignen navbar.css">
-      <change afterPath="$PROJECT_DIR$/scripts/subscribe.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/subscribe.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/datenschutz.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/datenschutz.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/kontakt.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/kontakt.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/impressum.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/impressum.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +90,7 @@
       <workItem from="1623486701760" duration="10687000" />
       <workItem from="1623521265337" duration="6978000" />
       <workItem from="1623590757698" duration="2924000" />
+      <workItem from="1623659583671" duration="841000" />
     </task>
     <task id="LOCAL-00001" summary="First grundstruktur (ordner fehlen noch aus irgendeinem grund)">
       <created>1622190410231</created>
