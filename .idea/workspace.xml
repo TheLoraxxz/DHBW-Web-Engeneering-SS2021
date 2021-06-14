@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="home.php so umgeschrieben noch, dass aricle mit drinne ist :D">
-      <change afterPath="$PROJECT_DIR$/scripts/scrapstuff+idee.txt" afterDir="false" />
+    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Subscribe zeug angefangen 2.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/subscribe.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/subscribe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/subscribe.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/subscribe.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,8 @@
       <workItem from="1623590757698" duration="2924000" />
       <workItem from="1623659583671" duration="2594000" />
       <workItem from="1623663689476" duration="2946000" />
-      <workItem from="1623677518202" duration="2656000" />
+      <workItem from="1623677518202" duration="2713000" />
+      <workItem from="1623681261463" duration="2408000" />
     </task>
     <task id="LOCAL-00001" summary="First grundstruktur (ordner fehlen noch aus irgendeinem grund)">
       <created>1622190410231</created>
@@ -253,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623678969124</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Subscribe zeug angefangen">
+      <created>1623680208040</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1623680208040</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Subscribe zeug angefangen 2.0">
+      <created>1623680227652</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1623680227652</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +322,8 @@
     <MESSAGE value="Design der zwischen teile + Hinzufügen eines Sub now buttons auf der Homepage -&gt; fehlt noch icon dazu" />
     <MESSAGE value="Design von home.php fertig --&gt; webm format für Video muss noch eingebunden werden" />
     <MESSAGE value="home.php so umgeschrieben noch, dass aricle mit drinne ist :D" />
-    <option name="LAST_COMMIT_MESSAGE" value="home.php so umgeschrieben noch, dass aricle mit drinne ist :D" />
+    <MESSAGE value="Subscribe zeug angefangen" />
+    <MESSAGE value="Subscribe zeug angefangen 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subscribe zeug angefangen 2.0" />
   </component>
 </project>

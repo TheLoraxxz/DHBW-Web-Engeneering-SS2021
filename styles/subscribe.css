@@ -2,8 +2,23 @@
     font-family: "Rubik normal";
     src: url("./../fonts/Rubik/static/Rubik-Light.ttf");
 }
-.content{
+.chos_content{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     padding: 50px 20px 0 20px;
     font-family: "Rubik normal",sans-serif;
+}
+.chos_content article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.chos_content article span {
+    padding-right: 5%;
+    border-collapse: collapse;
+}
+.chos_content article:first-child {
+    padding-left: 5%;
 }

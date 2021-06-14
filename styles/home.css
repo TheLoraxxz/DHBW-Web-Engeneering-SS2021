@@ -124,6 +124,5 @@ button i:hover {
     color: #ffffff;
 }
 button a {
-    width: max-content;
-    height: max-content;
+    padding: 20px;
 }
