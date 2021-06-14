@@ -47,7 +47,7 @@
             auf die jeweiligen Icons um etwas über das jeweilige Spiel zu erfahren</p>
         <figure>
             <img src="./assets/img/OXO.jpg" alt="OXO, eines der ersten Programmierspiele">
-            <figcaption>Das erste Spiel das große Bekanntheit erlangte</figcaption>
+            <figcaption><p>Das erste Spiel das große Bekanntheit erlangte</p></figcaption>
         </figure>
     </span>
     <h1>Subscription</h1>
@@ -56,6 +56,6 @@
     Durch das Subscriben bekommen wir ein wenig Geld und können unsere Webseite:
     <em>lovedgames.de</em> aufrecht erhalten können.
     Wir werden Ihnen dazu dann in naher Zukunft die Updates zusenden.</p>
-    <button>Subscribe Now</button>
+    <button><a href="index.php?s=subscribe"><i class="fas fa-newspaper fa-4x"></i></a></button>
     </span>
 </div>

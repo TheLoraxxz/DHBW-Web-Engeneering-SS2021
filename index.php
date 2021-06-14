@@ -25,6 +25,7 @@ if(count($_GET)==0){
         <link rel="stylesheet" href="styles/index.css">
         <?php echo('<link rel="stylesheet" href="./styles/'.$file_name.'.css">')    ?>
         <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.jpg">
+        <script src="https://kit.fontawesome.com/9fbe62eb9f.js" crossorigin="anonymous"></script>
         <title><?php echo($name); ?></title>
     </head>
     <body>
