@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Subscribe zeug angefangen 2.0">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_21__23_13__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_21__23_13__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Subscribe auswählen fertig + vorletzte Teilseite fast fertig designed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/subscribe.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/subscribe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/subscribe.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/subscribe.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +92,7 @@
       <workItem from="1623663689476" duration="2946000" />
       <workItem from="1623677518202" duration="2713000" />
       <workItem from="1623681261463" duration="2408000" />
+      <workItem from="1623746941796" duration="4350000" />
     </task>
     <task id="LOCAL-00001" summary="First grundstruktur (ordner fehlen noch aus irgendeinem grund)">
       <created>1622190410231</created>
@@ -270,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623680227652</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Subscribe auswählen fertig + vorletzte Teilseite fast fertig designed">
+      <created>1623700337324</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1623700337324</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +331,7 @@
     <MESSAGE value="home.php so umgeschrieben noch, dass aricle mit drinne ist :D" />
     <MESSAGE value="Subscribe zeug angefangen" />
     <MESSAGE value="Subscribe zeug angefangen 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Subscribe zeug angefangen 2.0" />
+    <MESSAGE value="Subscribe auswählen fertig + vorletzte Teilseite fast fertig designed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subscribe auswählen fertig + vorletzte Teilseite fast fertig designed" />
   </component>
 </project>

@@ -66,6 +66,11 @@
 .in_content{
     padding: 50px 20px 30px 20px;
     font-family: "Rubik normal",sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.in_content h3{
+    align-self: center;
 }
 .in_content form {
     display: flex;
@@ -73,16 +78,18 @@
 }
 .in_content form span {
     padding-bottom: 20px ;
+    text-align: center;
 }
 .in_content form label {
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 10px;
     width: 10%;
 }
 .in_content form input[type=text] {
     margin-right: 20px;
     padding: 17px 20px;
     border-radius: 7px;
+    width: 17%;
     border: 1px solid #b4b4b0;
 }
 #hidden{
@@ -91,12 +98,75 @@
 #card{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 100%;
+    align-items: center;
 }
 #card input{
     margin-bottom: 20px;
+    width: 30%;
+    align-content: center;
 }
 .in_content hr {
     color: #302420;
-    z-index: 5;
+    display: block;
+    clear: both;
+    width: 50%;
+}
+#AGB {
+    width: 30%;
+}
+.in_content input[type="submit"],.in_content button {
+    width: 17%;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    align-self: center;
+}
+.in_content input[type="submit"] {
+    background: #4d61ff;
+    color: white;
+}
+.in_content input[type="submit"]:hover{
+    background: #3d33c7;
+}
+.in_content button:hover {
+    background: #c1c1c1;
+}
+/*##################### endzustand #################################*/
+.fin_content{
+    padding: 50px 20px 30px 20px;
+    font-family: "Rubik normal",sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.fin_content p {
+    line-height: 25px;
+    font-size: 20px;
+
+}
+.fin_content div{
+    width: 40%;
+    display: flex;
+}
+.fin_content span {
+    width: 35%;
+}
+.fin_content button {
+    width: 100px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.fin_content button:hover{
+    background: #c0c0c0;
 }

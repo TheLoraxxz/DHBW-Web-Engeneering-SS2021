@@ -51,14 +51,17 @@ if(count($_GET)==1) {
     echo('
         <div class="in_content">
             <h1>Bitte Daten eingeben</h1>
-            <h3>Allgemeine Daten</h3>
             <form method="get" action="index.php" id="form">
+                <h3>Allgemeine Daten</h3>
                 <span id="hidden">
-                    <input type="text" name="s" value="subscribe">
-                    <input type="text" name="sub" value="fin">
+                    <input type="text" name="s" value="subscribe" readonly>
+                    <input type="text" name="sub" value="fin" readonly>
+                    <input type="text" name="type" value="'.$type.'" readonly>
                 </span>
                 <span>
                     <label>Vorname:</label><input type="text" placeholder="Max" required name="surname">
+                </span>
+                <span>
                     <label>Nachname:</label><input type="text" placeholder="Mustermann" name="name" required>
                 </span>
                 <span>
@@ -71,8 +74,8 @@ if(count($_GET)==1) {
                     <input type="text" placeholder="Ablaufdatum" required name="abl" pattern="[0-9]*">
                     <input type="text" placeholder="Sicherheitscode" required name="code" pattern="[0-9]*">
                 </span>
-                <span>
-                    <input type="checkbox" required><label>Ich habe die <a href="./index.php?s=datsec">AGB</a> gelesen und akzeptiert</label>
+                <span >
+                    <input type="checkbox" required><label id="AGB">Ich habe die <a href="./index.php?s=datsec">AGB</a> gelesen und akzeptiert</label>
                 </span>
                 <input type="submit" >
             </form>
@@ -80,8 +83,24 @@ if(count($_GET)==1) {
         </div>
     ');
 } elseif ($_GET["sub"]=="fin"){
+    $name = $_GET['name'];
+    $surname=$_GET['surname'];
+    $mail=$_GET['email'];
+    $cardnum = $_GET['card_number'];
+    $cardnum = substr_replace($cardnum,'**** **** **** ',0,-4);
+
     echo('
-        <h1>Vielen Dank für die Subscription</h1>
+        <div class="fin_content">
+            <h1>Vielen Dank für die Subscription der '.$_GET['type'].' Variante</h1>
+            <p>Hallo '.$surname.' '.$name.', <br>
+            Vielen Dank dass Sie sich für das Premium Abo entschieden haben.<br>
+            Folgende Daten wurden übermittelt:</p>
+            <div><span>Name:</span>'.$surname.' '.$name.'</div>
+            <div><span>E-Mail:</span> '.$mail.'</div>
+            <div><span>Zahlungsmethode:</span> Kreditkarte</div>
+            <div><span>Kartennummer: </span>'.$cardnum.'</div>
+            <button onclick="window.location.href=\'index.php\'">Zurück</button>
+        </div>
     ');
 }
 ?>
