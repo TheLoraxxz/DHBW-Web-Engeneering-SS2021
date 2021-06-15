@@ -7,7 +7,7 @@ if(count($_GET)==0){
 }elseif ($_GET['s']=="kontakt") {
     $name="Kontaktformular";
     $file_name=$_GET['s'];
-} elseif ($_GET['s']="subscribe") {
+} elseif ($_GET['s']=="subscribe") {
     $name="Subscribe NOW!";
     $file_name="subscribe";
 }elseif ($_GET['s']=="Impressum") {
@@ -17,7 +17,6 @@ if(count($_GET)==0){
     $name ="Datenschutz";
     $file_name="datenschutz";
 }
-var_dump($file_name);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -26,6 +25,7 @@ var_dump($file_name);
         <link rel="stylesheet" href="styles/index.css">
         <?php echo('<link rel="stylesheet" href="./styles/'.$file_name.'.css">')    ?>
         <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.jpg">
+        <script src="https://kit.fontawesome.com/9fbe62eb9f.js" crossorigin="anonymous"></script>
         <title><?php echo($name); ?></title>
     </head>
     <body>

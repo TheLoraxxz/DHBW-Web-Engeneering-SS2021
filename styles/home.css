@@ -83,7 +83,44 @@
 
 }
 .content{
-    padding: 0 20px 0 20px;
+    padding: 0 20px 50px 20px;
     position: relative;
     font-family: "Rubik normal",sans-serif;
+}
+.content article{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: #c5c5c5 8px 8px 8px;
+    border-radius: 8px;
+    background: #f6f6f6;
+    padding: 20px;
+
+}
+
+.content article p{
+    margin-right: 1%;
+}
+img[src="./assets/img/OXO.jpg"] {
+    position: relative;
+    width: 100%;
+}
+img[src="./assets/img/OXO.jpg"] ~ figcaption {
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 100%;
+}
+button {
+    border: none;
+    padding: 10px 20px 10px 20px;
+    background: #00e518;
+    width: 100px;
+    border-radius: 10px;
+    text-wrap: normal;
+}
+button i {
+    color: #e0e5e5;
+
+}
+button i:hover {
+    color: #ffffff;
 }

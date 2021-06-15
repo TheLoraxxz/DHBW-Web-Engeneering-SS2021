@@ -36,6 +36,7 @@
 <div id="uebergang"></div>
 <div class="content">
     <h1>Worum geht es?</h1>
+    <article>
         <p>Seit dem 1952 OXO, das erste Computerspiel (ein TicTacToe Spiel)
                 mit einem bekannten Namen, erschienen ist, sind tausende von Spielen erschienen.
             Heutzutage erscheinen im stündlichen Takt neue Videospiele mit manchmal komischen Ideen.
@@ -46,11 +47,15 @@
             auf die jeweiligen Icons um etwas über das jeweilige Spiel zu erfahren</p>
         <figure>
             <img src="./assets/img/OXO.jpg" alt="OXO, eines der ersten Programmierspiele">
-            <figcaption>Das erste Spiel das große Bekanntheit erlangte</figcaption>
+            <figcaption><p>Das erste Spiel das große Bekanntheit erlangte</p></figcaption>
         </figure>
+    </article>
     <h1>Subscription</h1>
+    <article>
     <p>Wenn ihr bei dieser Webseite Subscribed bekommt ihr extra Inhalt in der nahen Zukunft.
     Durch das Subscriben bekommen wir ein wenig Geld und können unsere Webseite:
     <em>lovedgames.de</em> aufrecht erhalten können.
     Wir werden Ihnen dazu dann in naher Zukunft die Updates zusenden.</p>
+    <button><a href="index.php?s=subscribe"><i class="fas fa-newspaper fa-4x"></i></a></button>
+    </article>
 </div>
