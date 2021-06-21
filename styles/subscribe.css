@@ -23,6 +23,9 @@
     text-align: center;
     border-collapse: collapse;
 }
+.chos_content article img {
+    padding-top: 10%;
+}
 .chos_content article:first-child {
     padding-left: 5%;
 }
@@ -50,6 +53,7 @@
     border: none;
     background: #302420;
     margin-top: 40px;
+    width: max-content;
     margin-bottom: 40px;
     padding: 15px 25px;
     border-radius: 25px;
@@ -116,7 +120,8 @@
     width: 30%;
 }
 .in_content input[type="submit"],.in_content button {
-    width: 17%;
+    width: auto;
+    max-width: 30%;
     border: none;
     text-align: center;
     text-decoration: none;
@@ -154,7 +159,7 @@
     display: flex;
 }
 .fin_content span {
-    width: 35%;
+    width: 50%;
 }
 .fin_content button {
     width: 100px;

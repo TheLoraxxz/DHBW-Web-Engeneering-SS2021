@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="subscribe.php bis auf responsiveness fertig">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_21,_23_13_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_21__23_13__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Media Queries start">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/subscribe.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/subscribe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/subscribe.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/subscribe.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +97,7 @@
       <workItem from="1623958139948" duration="24000" />
       <workItem from="1623961804256" duration="4000" />
       <workItem from="1624215555538" duration="3000" />
-      <workItem from="1624271279412" duration="552000" />
+      <workItem from="1624271279412" duration="1074000" />
     </task>
     <task id="LOCAL-00001" summary="First grundstruktur (ordner fehlen noch aus irgendeinem grund)">
       <created>1622190410231</created>
@@ -293,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623752183384</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Media Queries start">
+      <created>1624271965570</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1624271965570</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +326,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First grundstruktur (mit ordnern?)" />
     <MESSAGE value="Added navbar" />
     <MESSAGE value="Made it a one page" />
     <MESSAGE value="Added Pictures to NavBar+ Making contact button" />
@@ -349,6 +350,7 @@
     <MESSAGE value="Subscribe zeug angefangen 2.0" />
     <MESSAGE value="Subscribe auswählen fertig + vorletzte Teilseite fast fertig designed" />
     <MESSAGE value="subscribe.php bis auf responsiveness fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="subscribe.php bis auf responsiveness fertig" />
+    <MESSAGE value="Media Queries start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Media Queries start" />
   </component>
 </project>
