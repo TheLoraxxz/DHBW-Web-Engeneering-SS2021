@@ -18,49 +18,41 @@ nav{
 nav:hover{
     background: #ecebe8;
 }
-@media only screen and (min-width: 200px) {
-    nav{
-        height: 100px;
-    }
+
+nav{
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: 1px;
 }
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: max-content;
+    overflow: hidden;
+}
+nav li {
+    padding: 0px 10px 0 10px;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    height: 50px;
+}
+nav img {
+    width: 50px;
+}
+.link,.link:hover,.link:visited,.link:focus,.link:active{
+    text-decoration: none;
+    position: relative;
+    color: black;
+    top: 30%;
 
-@media only screen and (min-width: 500px){
-    nav{
-        height: 50px;
-        width: 100%;
-        font-size: 16px;
-        letter-spacing: 1px;
-    }
-    nav ul{
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        height: max-content;
-        overflow: hidden;
-    }
-    nav li {
-        padding: 0px 10px 0 10px;
-        float: left;
-        margin-left: 20px;
-        position: relative;
-        height: 50px;
-    }
-    nav img {
-        width: 50px;
-    }
-    .link,.link:hover,.link:visited,.link:focus,.link:active{
-        text-decoration: none;
-        position: relative;
-        color: black;
-        top: 30%;
-
-    }
-    .left_link{
-        float: right;
-        margin-right: 20px;
-        margin-left: 0;
-
-    }
+}
+.left_link{
+    float: right;
+    margin-right: 20px;
+    margin-left: 0;
 
 }
 html,body {

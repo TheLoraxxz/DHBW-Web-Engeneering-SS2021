@@ -22,6 +22,7 @@ if(count($_GET)==0){
 <html lang="en">
     <head>
         <meta charset="UTF-8" lang="de">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="stylesheet" href="styles/index.css">
         <?php echo('<link rel="stylesheet" href="./styles/'.$file_name.'.css">')    ?>
         <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.jpg">

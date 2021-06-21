@@ -99,7 +99,7 @@ if(count($_GET)==1) {
             <div><span>E-Mail:</span> '.$mail.'</div>
             <div><span>Zahlungsmethode:</span> Kreditkarte</div>
             <div><span>Kartennummer: </span>'.$cardnum.'</div>
-            <button onclick="window.location.href=\'index.php\'">Zurück</button>
+            <button onclick="window.location.href=\'index.php\'">Home</button>
         </div>
     ');
 }
