@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="subscribe.css erste teilwebseite fertig">
+    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Mediq quereies fertig für subscribe.css, index.css, home.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/subscribe.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/subscribe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +106,7 @@
       <workItem from="1624568117008" duration="32000" />
       <workItem from="1625157806292" duration="1195000" />
       <workItem from="1625212996476" duration="11376000" />
+      <workItem from="1625251286061" duration="79000" />
     </task>
     <task id="LOCAL-00001" summary="First grundstruktur (ordner fehlen noch aus irgendeinem grund)">
       <created>1622190410231</created>
@@ -345,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625249760884</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Mediq quereies fertig für subscribe.css, index.css, home.css">
+      <created>1625250660942</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1625250660942</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +370,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="dev" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -376,7 +384,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Neudesignen navbar.css" />
     <MESSAGE value="Erstes Font und Video funktioniert auf HOME" />
     <MESSAGE value="Redesign sodass es responsive ist" />
     <MESSAGE value="home.css angepasst sodass die Links wohinführen und gut aussehen" />
@@ -401,6 +408,7 @@
     <MESSAGE value="Knöpfe sind übereinander" />
     <MESSAGE value="home.css angepasst dass es responsive auf allen drei gerätren ist" />
     <MESSAGE value="subscribe.css erste teilwebseite fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="subscribe.css erste teilwebseite fertig" />
+    <MESSAGE value="Mediq quereies fertig für subscribe.css, index.css, home.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mediq quereies fertig für subscribe.css, index.css, home.css" />
   </component>
 </project>
