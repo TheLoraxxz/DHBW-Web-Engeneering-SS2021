@@ -33,13 +33,22 @@ if(count($_GET)==0){
         <div class="container">
             <header>
                 <nav class="header">
-                    <ul>
-                        <li><a class="link" href="index.php">Spiele</a></li>
-                        <li><a href="index.php"><img src="./assets/img/world-of-warcraft-logo.svg" alt="World of Warcraft"></a></li>
-                        <li><a href="index.php"><img src="./assets/img/skyrim-logo.png" alt="Skyrim"></a></li>
-                        <li class="left_link"><a class="link" href="index.php?s=kontakt">Kontakt</a></li>
-                        <li class="left_link"><a class="link" href="index.php?s=subscribe">Subscribe</a></li>
-                    </ul>
+                    <div>
+                        <span>
+                            <ul>
+                                <li><a class="link" href="index.php">Spiele</a></li>
+                                <li><a href="index.php"><img src="./assets/img/world-of-warcraft-logo.svg" alt="World of Warcraft"></a></li>
+                                <li><a href="index.php"><img src="./assets/img/skyrim-logo.png" alt="Skyrim"></a></li>
+                            </ul>
+                        </span>
+                        <span>
+                            <ul id="dropdown">
+                                <li class="left_link"><a class="link" href="index.php?s=kontakt">Kontakt</a></li>
+                                <li class="left_link"><a class="link" href="index.php?s=subscribe">Subscribe</a></li>
+                            </ul>
+                        </span>
+                    </div>
+
 
 
                 </nav>

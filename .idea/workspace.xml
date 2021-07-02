@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Media Queries start">
+    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment=" subscribe.css now works also on IPAD --&gt; new Media query for Iphone needs to be done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/subscribe.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/subscribe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +99,14 @@
       <workItem from="1623958139948" duration="24000" />
       <workItem from="1623961804256" duration="4000" />
       <workItem from="1624215555538" duration="3000" />
-      <workItem from="1624271279412" duration="1074000" />
+      <workItem from="1624271279412" duration="4976000" />
+      <workItem from="1624355761826" duration="694000" />
+      <workItem from="1624386930474" duration="1000" />
+      <workItem from="1624476352577" duration="9352000" />
+      <workItem from="1624525482662" duration="5000" />
+      <workItem from="1624568117008" duration="32000" />
+      <workItem from="1625157806292" duration="1195000" />
+      <workItem from="1625212996476" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="First grundstruktur (ordner fehlen noch aus irgendeinem grund)">
       <created>1622190410231</created>
@@ -295,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624271965570</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary=" subscribe.css now works also on IPAD --&gt; new Media query for Iphone needs to be done">
+      <created>1624272439991</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1624272439991</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +328,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="dev" />
                       </list>
                     </value>
                   </entry>
@@ -326,7 +342,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added navbar" />
     <MESSAGE value="Made it a one page" />
     <MESSAGE value="Added Pictures to NavBar+ Making contact button" />
     <MESSAGE value="Home aktualisiert" />
@@ -351,6 +366,7 @@
     <MESSAGE value="Subscribe auswählen fertig + vorletzte Teilseite fast fertig designed" />
     <MESSAGE value="subscribe.php bis auf responsiveness fertig" />
     <MESSAGE value="Media Queries start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Media Queries start" />
+    <MESSAGE value=" subscribe.css now works also on IPAD --&gt; new Media query for Iphone needs to be done" />
+    <option name="LAST_COMMIT_MESSAGE" value=" subscribe.css now works also on IPAD --&gt; new Media query for Iphone needs to be done" />
   </component>
 </project>

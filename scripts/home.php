@@ -12,7 +12,7 @@
     <div id="info_container">
     <span id="buy">
         <p>Spiele kaufen</p>
-        <ul>
+        <ul id="buy_cont">
             <li>
                 <a href="https://eu.shop.battle.net/de-de/product/world-of-warcraft-shadowlands?gclid=Cj0KCQjwk4yGBhDQARIsACGfAeu6uKM4l4s5HsZLJu5H6rkdkm9F4CTuVAJU0fp1gT0FWFDX1T7O5yQaAt6eEALw_wcB&gclsrc=aw.ds" target="_blank">World of Warcraft</a>
             </li>
@@ -24,7 +24,7 @@
     <span id="trail">
         <p>Trailer sehen</p>
         <ul>
-            <li>
+            <li id="trail_cont">
                 <a href="https://www.youtube.com/watch?v=vlVSJ0AvZe0" target="_blank">World of Warcraft</a>
             </li>
             <li><a href="https://www.youtube.com/watch?v=JSRtYpNRoN0" target="_blank">The Elder Scrolls 5</a>
