@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Subscribe auswählen fertig + vorletzte Teilseite fast fertig designed">
+    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="subscribe.css erste teilwebseite fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/subscribe.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/subscribe.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/subscribe.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/subscribe.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +28,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -92,7 +92,20 @@
       <workItem from="1623663689476" duration="2946000" />
       <workItem from="1623677518202" duration="2713000" />
       <workItem from="1623681261463" duration="2408000" />
-      <workItem from="1623746941796" duration="4350000" />
+      <workItem from="1623746941796" duration="5654000" />
+      <workItem from="1623842121725" duration="3031000" />
+      <workItem from="1623910535028" duration="1784000" />
+      <workItem from="1623958139948" duration="24000" />
+      <workItem from="1623961804256" duration="4000" />
+      <workItem from="1624215555538" duration="3000" />
+      <workItem from="1624271279412" duration="4976000" />
+      <workItem from="1624355761826" duration="694000" />
+      <workItem from="1624386930474" duration="1000" />
+      <workItem from="1624476352577" duration="9352000" />
+      <workItem from="1624525482662" duration="5000" />
+      <workItem from="1624568117008" duration="32000" />
+      <workItem from="1625157806292" duration="1195000" />
+      <workItem from="1625212996476" duration="11376000" />
     </task>
     <task id="LOCAL-00001" summary="First grundstruktur (ordner fehlen noch aus irgendeinem grund)">
       <created>1622190410231</created>
@@ -276,7 +289,63 @@
       <option name="project" value="LOCAL" />
       <updated>1623700337324</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="subscribe.php bis auf responsiveness fertig">
+      <created>1623752183384</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1623752183384</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Media Queries start">
+      <created>1624271965570</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1624271965570</updated>
+    </task>
+    <task id="LOCAL-00029" summary=" subscribe.css now works also on IPAD --&gt; new Media query for Iphone needs to be done">
+      <created>1624272439991</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1624272439991</updated>
+    </task>
+    <task id="LOCAL-00030" summary="reworking index.css to make it good">
+      <created>1625215229492</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1625215229492</updated>
+    </task>
+    <task id="LOCAL-00031" summary="index.css header is now responsive">
+      <created>1625227321279</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1625227321279</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Knöpfe sind übereinander">
+      <created>1625247759600</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1625247759600</updated>
+    </task>
+    <task id="LOCAL-00033" summary="home.css angepasst dass es responsive auf allen drei gerätren ist">
+      <created>1625248554422</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1625248554422</updated>
+    </task>
+    <task id="LOCAL-00034" summary="subscribe.css erste teilwebseite fertig">
+      <created>1625249760884</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1625249760884</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,14 +376,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First grundstruktur (ordner fehlen noch aus irgendeinem grund)" />
-    <MESSAGE value="First grundstruktur (mit ordnern?)" />
-    <MESSAGE value="Added navbar" />
-    <MESSAGE value="Made it a one page" />
-    <MESSAGE value="Added Pictures to NavBar+ Making contact button" />
-    <MESSAGE value="Home aktualisiert" />
-    <MESSAGE value="Weiterer Ausbau von Webseite home (muss noch die home seite ordentlich gestalten auf papier :D)" />
-    <MESSAGE value="Funktionswebseite Home und Basis ist weitesgehend durch" />
     <MESSAGE value="Neudesignen navbar.css" />
     <MESSAGE value="Erstes Font und Video funktioniert auf HOME" />
     <MESSAGE value="Redesign sodass es responsive ist" />
@@ -332,6 +393,14 @@
     <MESSAGE value="Subscribe zeug angefangen" />
     <MESSAGE value="Subscribe zeug angefangen 2.0" />
     <MESSAGE value="Subscribe auswählen fertig + vorletzte Teilseite fast fertig designed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Subscribe auswählen fertig + vorletzte Teilseite fast fertig designed" />
+    <MESSAGE value="subscribe.php bis auf responsiveness fertig" />
+    <MESSAGE value="Media Queries start" />
+    <MESSAGE value=" subscribe.css now works also on IPAD --&gt; new Media query for Iphone needs to be done" />
+    <MESSAGE value="reworking index.css to make it good" />
+    <MESSAGE value="index.css header is now responsive" />
+    <MESSAGE value="Knöpfe sind übereinander" />
+    <MESSAGE value="home.css angepasst dass es responsive auf allen drei gerätren ist" />
+    <MESSAGE value="subscribe.css erste teilwebseite fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="subscribe.css erste teilwebseite fertig" />
   </component>
 </project>
