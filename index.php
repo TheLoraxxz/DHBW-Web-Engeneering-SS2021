@@ -72,11 +72,13 @@ if(count($_GET)==0){
             <footer>
                 <hr>
                 <div class="footer">
-                <span>
-                    <a href="index.php?s=Impressum">Impressum</a>
-                    <a href="index.php?s=datsec">Datenschutz</a>
-                </span>
-                <p>Die jeweiligen&nbsp;<a>Marken</a>&nbsp;gehören den jeweiligen Firmen</p>
+                    <span>
+                        <a href="index.php?s=Impressum">Impressum</a>
+                        <a href="index.php?s=datsec">Datenschutz</a>
+                    </span>
+                    <span>
+                        <p>Die jeweiligen Marken gehören den jeweiligen Firmen</p>
+                    </span>
                 </div>
             </footer>
         </div>

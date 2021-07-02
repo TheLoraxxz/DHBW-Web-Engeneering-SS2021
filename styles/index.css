@@ -160,10 +160,16 @@ footer a,footer a:hover,footer a:visited,footer a:active, footer a:focus {
 }
 footer p {
     color: white;
+    text-align: center;
 }
 
 footer p {
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+@media only screen and (max-width: 600px) {
+    footer p{
+        width: 80%;
+    }
 }
