@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="home.css angepasst dass es responsive auf allen drei gerätren ist">
+    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="subscribe.css erste teilwebseite fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/subscribe.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/subscribe.css" afterDir="false" />
     </list>
@@ -338,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625248554422</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="subscribe.css erste teilwebseite fertig">
+      <created>1625249760884</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1625249760884</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +376,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Funktionswebseite Home und Basis ist weitesgehend durch" />
     <MESSAGE value="Neudesignen navbar.css" />
     <MESSAGE value="Erstes Font und Video funktioniert auf HOME" />
     <MESSAGE value="Redesign sodass es responsive ist" />
@@ -394,6 +400,7 @@
     <MESSAGE value="index.css header is now responsive" />
     <MESSAGE value="Knöpfe sind übereinander" />
     <MESSAGE value="home.css angepasst dass es responsive auf allen drei gerätren ist" />
-    <option name="LAST_COMMIT_MESSAGE" value="home.css angepasst dass es responsive auf allen drei gerätren ist" />
+    <MESSAGE value="subscribe.css erste teilwebseite fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="subscribe.css erste teilwebseite fertig" />
   </component>
 </project>

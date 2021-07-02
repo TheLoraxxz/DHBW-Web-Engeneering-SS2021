@@ -103,7 +103,7 @@
 
 /*################## In content ###################### */
 .in_content{
-    padding: 50px 20px 30px 20px;
+    padding: 70px 20px 30px 20px;
     font-family: "Rubik normal",sans-serif;
     display: flex;
     flex-direction: column;
@@ -119,20 +119,10 @@
     padding-bottom: 20px ;
     text-align: center;
 }
-.in_content form label {
-    display: inline-block;
-    padding-right: 10px;
-    width: 10%;
-}
 .in_content form input[type=text] {
-    margin-right: 20px;
     padding: 17px 20px;
     border-radius: 7px;
-    width: 17%;
     border: 1px solid #b4b4b0;
-}
-#hidden{
-    display: none;
 }
 #card{
     display: flex;
@@ -151,12 +141,8 @@
     clear: both;
     width: 50%;
 }
-#AGB {
-    width: 30%;
-}
 .in_content input[type="submit"],.in_content button {
     width: auto;
-    max-width: 30%;
     border: none;
     text-align: center;
     text-decoration: none;
@@ -177,9 +163,56 @@
 .in_content button:hover {
     background: #c1c1c1;
 }
+@media only screen and (max-width: 600px) {
+    .in_content form span {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .in_content form span {
+        width: 100%;
+    }
+    .in_content form label {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #AGB {
+        width: 80%;
+    }
+    .in_content input[type="submit"],.in_content button {
+        max-width: 50%;
+    }
+    .in_content form input[type=text],#card input {
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .in_content form label {
+        display: inline-block;
+        padding-right: 10px;
+        width: 10%;
+    }
+    #AGB {
+        width: 30%;
+    }
+    .in_content input[type="submit"],.in_content button {
+        max-width: 30%;
+    }
+    .in_content form input[type=text] {
+        margin-right: 20px;
+        padding: 17px 20px;
+        border-radius: 7px;
+        width: 17%;
+        border: 1px solid #b4b4b0;
+    }
+}
+#hidden{
+    display: none;
+}
 /*##################### endzustand #################################*/
 .fin_content{
-    padding: 50px 20px 30px 20px;
+    padding: 70px 20px 30px 20px;
     font-family: "Rubik normal",sans-serif;
     display: flex;
     flex-direction: column;
@@ -192,6 +225,13 @@
 .fin_content div{
     width: 40%;
     display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .fin_content div{
+        width: 100%;
+        text-wrap: normal;
+        display: flex;
+    }
 }
 .fin_content span {
     width: 50%;
