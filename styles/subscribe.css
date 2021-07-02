@@ -8,18 +8,13 @@
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
-    padding: 50px 20px 30px 20px;
     font-family: "Rubik normal",sans-serif;
 }
 .chos_content article {
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 .chos_content article span {
-    padding-right: 5%;
-    padding-left: 5%;
-    width: 20%;
     text-align: center;
     border-collapse: collapse;
 }
@@ -46,7 +41,6 @@
 }
 #chos_choose span {
     box-shadow: #b4b4b0 4px 4px 4px 4px;
-    margin: 40px;
     border-radius: 15px;
 }
 #chos_choose button{
@@ -66,6 +60,47 @@
 #chos_choose button:hover{
     background: #1f1814;
 }
+@media only screen and (max-width: 600px) {
+    .chos_content {
+    padding: 70px 5px 0 5px;
+    }
+    .chos_content article {
+        flex-direction: column;
+    }
+    .chos_content article span {
+        width: auto;
+        padding: 0 0 0 0;
+    }
+    #chos_choose span {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 50px;
+    }
+    hr {
+        width: 90%;
+    }
+    #chos_choose p{
+        margin-left: 10px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .chos_content {
+        padding: 70px 20px 30px 20px;
+
+    }
+    .chos_content article {
+        flex-direction: row;
+    }
+    .chos_content article span {
+        padding-right: 5%;
+        padding-left: 5%;
+        width: 20%
+    }
+    #chos_choose span {
+        margin: 40px;
+    }
+}
+
 /*################## In content ###################### */
 .in_content{
     padding: 50px 20px 30px 20px;
