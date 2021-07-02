@@ -6,47 +6,43 @@
     font-family: 'Roboto Slab light';
     src: url("./../fonts/Roboto Slab/RobotoSlab-Light.ttf");
 }
-nav{
-    background: #f2f1ed;
-    top: 0;
-    left: 0;
+html,body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 100%;
+}
+.container {
+    min-height: 100%;
+    position: relative;
+}
+/*###################### Header and everything with it #########################*/
+header {
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: 1px;
     position: fixed ;
     z-index: 10;
     font-family: "Roboto Slab-Medium",sans-serif;
     overflow: hidden;
-    width: 100%;
-    font-size: 16px;
-    letter-spacing: 1px;
+    background: #f2f1ed;
+
 }
 nav:hover{
     background: #ecebe8;
 }
-@media only screen and (max-width: 600px) {
-    nav {
-        height: 50px;
-    }
-    #dropdown li{
-        display: none;
-    }
-}
-@media only screen and (min-width: 600px) {
-    nav {
-        height: 50px;
-    }
-
+nav div {
+    display: flex;
 }
 nav ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
     height: max-content;
     overflow: hidden;
 }
 nav li {
     padding: 0px 10px 0 10px;
-    float: left;
-    margin-left: 20px;
-    position: relative;
     height: 50px;
 }
 nav img {
@@ -57,25 +53,78 @@ nav img {
     position: relative;
     color: black;
     top: 30%;
-
 }
-.left_link{
-    float: right;
-    margin-right: 20px;
-    margin-left: 0;
+@media only screen and (max-width: 600px) {
+    #dropdown li{
+    }
+    nav div {
+        justify-content: center;
+        flex-direction: column;
 
+    }
+    nav #general_stuff {
+        width: 100%;
+        margin: 0 0 0 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    #general_stuff li:nth-child(1){
+        order: 2;
+    }
+    #general_stuff li:nth-child(2){
+        order: 1;
+    }
+    #general_stuff li:nth-child(3){
+        order: 3;
+    }
+    #general_stuff li:nth-child(3){
+        order: 3;
+    }
+    #dropdown {
+        display: none;
+    }
+    nav .dropdown_nav {
+        display: flex;
+        min-height: 30px;
+        flex-direction: column;
+    }
+    .dropdown_nav span {
+        display: flex;
+        justify-content: center;
+    }
+    .dropdown_nav:hover>#dropdown{
+        display: flex;
+        justify-content: center;
+    }
 }
-
-
-
-html,body {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    height: 100%;
+@media only screen and (min-width: 600px) {
+    nav div {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav #general_stuff {
+        display: flex;
+        justify-content: left;
+    }
+    nav #general_stuff li {
+        margin: 0 0 0 30px;
+    }
+    nav #dropdown {
+        display: flex;
+        justify-content: right;
+    }
+    nav #dropdown {
+        margin: 0 30px 0 0;
+    }
+    .dropdown_nav svg {
+        display: none;
+    }
 }
+/*###################### Main Section #########################*/
 main {
     padding-bottom: 200px;
 }
+/*###################### All footer settings #########################*/
 footer {
     font-family: "Roboto Slab-Medium",sans-serif;
     clear: both;
@@ -117,8 +166,4 @@ footer p {
     display: flex;
     justify-content: center;
     flex-direction: row;
-}
-.container {
-    min-height: 100%;
-    position: relative;
 }

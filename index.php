@@ -34,19 +34,24 @@ if(count($_GET)==0){
             <header>
                 <nav class="header">
                     <div>
-                        <span>
-                            <ul>
-                                <li><a class="link" href="index.php">Spiele</a></li>
-                                <li><a href="index.php"><img src="./assets/img/world-of-warcraft-logo.svg" alt="World of Warcraft"></a></li>
-                                <li><a href="index.php"><img src="./assets/img/skyrim-logo.png" alt="Skyrim"></a></li>
-                            </ul>
-                        </span>
-                        <span>
+                        <ul id="general_stuff">
+                            <li><a class="link" href="index.php">Spiele</a></li>
+                            <li><a href="index.php"><img src="./assets/img/world-of-warcraft-logo.svg" alt="World of Warcraft"></a></li>
+                            <li><a href="index.php"><img src="./assets/img/skyrim-logo.png" alt="Skyrim"></a></li>
+                        </ul>
+                        <div class="dropdown_nav">
+                            <span>
+                            <svg width="40px" height="20px">
+                                <polyline points="0,0 0,5 20,15 40,5 40,0 20,10"fill="black" />
+                            </svg>
+                            </span>
                             <ul id="dropdown">
-                                <li class="left_link"><a class="link" href="index.php?s=kontakt">Kontakt</a></li>
-                                <li class="left_link"><a class="link" href="index.php?s=subscribe">Subscribe</a></li>
+                                <li><a class="link" href="index.php?s=kontakt">Kontakt</a></li>
+                                <li><a class="link" href="index.php?s=subscribe">Subscribe</a></li>
                             </ul>
-                        </span>
+                        </div>
+
+
                     </div>
 
 

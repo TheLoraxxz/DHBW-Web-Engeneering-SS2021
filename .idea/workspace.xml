@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment=" subscribe.css now works also on IPAD --&gt; new Media query for Iphone needs to be done">
+    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="reworking index.css to make it good">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +105,7 @@
       <workItem from="1624525482662" duration="5000" />
       <workItem from="1624568117008" duration="32000" />
       <workItem from="1625157806292" duration="1195000" />
-      <workItem from="1625212996476" duration="917000" />
+      <workItem from="1625212996476" duration="11041000" />
     </task>
     <task id="LOCAL-00001" summary="First grundstruktur (ordner fehlen noch aus irgendeinem grund)">
       <created>1622190410231</created>
@@ -311,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624272439991</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="reworking index.css to make it good">
+      <created>1625215229492</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1625215229492</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +348,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Made it a one page" />
     <MESSAGE value="Added Pictures to NavBar+ Making contact button" />
     <MESSAGE value="Home aktualisiert" />
     <MESSAGE value="Weiterer Ausbau von Webseite home (muss noch die home seite ordentlich gestalten auf papier :D)" />
@@ -367,6 +372,7 @@
     <MESSAGE value="subscribe.php bis auf responsiveness fertig" />
     <MESSAGE value="Media Queries start" />
     <MESSAGE value=" subscribe.css now works also on IPAD --&gt; new Media query for Iphone needs to be done" />
-    <option name="LAST_COMMIT_MESSAGE" value=" subscribe.css now works also on IPAD --&gt; new Media query for Iphone needs to be done" />
+    <MESSAGE value="reworking index.css to make it good" />
+    <option name="LAST_COMMIT_MESSAGE" value="reworking index.css to make it good" />
   </component>
 </project>
