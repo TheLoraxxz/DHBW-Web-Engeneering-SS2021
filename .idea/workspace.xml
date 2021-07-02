@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="index.css header is now responsive">
+    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Knöpfe sind übereinander">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.css" afterDir="false" />
     </list>
@@ -324,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625227321279</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Knöpfe sind übereinander">
+      <created>1625247759600</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1625247759600</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +362,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Home aktualisiert" />
     <MESSAGE value="Weiterer Ausbau von Webseite home (muss noch die home seite ordentlich gestalten auf papier :D)" />
     <MESSAGE value="Funktionswebseite Home und Basis ist weitesgehend durch" />
     <MESSAGE value="Neudesignen navbar.css" />
@@ -380,6 +386,7 @@
     <MESSAGE value=" subscribe.css now works also on IPAD --&gt; new Media query for Iphone needs to be done" />
     <MESSAGE value="reworking index.css to make it good" />
     <MESSAGE value="index.css header is now responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="index.css header is now responsive" />
+    <MESSAGE value="Knöpfe sind übereinander" />
+    <option name="LAST_COMMIT_MESSAGE" value="Knöpfe sind übereinander" />
   </component>
 </project>
