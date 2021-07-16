@@ -1,0 +1,129 @@
+.header {
+    width: 100%;
+}
+.site_background {
+    background-image: url("../assets/img/wow_background.jpg");
+    background-repeat: repeat;
+}
+.header_wallpaper {
+    width: 100%;
+}
+.wow_description {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    color: white;
+}
+ 
+.wow_charakterauswahl {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    color: white;
+}
+.races {
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+}
+  
+.race_list {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    color: white;
+    width: 60%;
+    padding-top:1%;
+}
+  
+.races_table_cont{
+    width: 60%;
+    padding-left: 10%;
+    padding-top: 5%;
+  
+}
+.race_tableitem {
+    text-align: center;
+}
+  
+.races_picture {
+    padding-left: 5%;
+    padding-top: 4%;
+}
+  
+.wow_klassenwahl {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    color: white;
+}
+  
+.wow_spielprinzip {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    color: white;
+}
+  
+.blizard_details {
+    padding-top: 2%;
+}
+  
+.char_individual {
+    width: 100%;
+    display: flex;
+}
+  
+.char_individual_picture {
+    padding-right: 3%;
+    width: 40%;
+}
+@media only screen and (max-width: 600px) {
+    .classes_list {
+        width: 100%;
+
+    }
+    iframe {
+        display:flex;
+        justify-content: center;
+        margin-top: 2%;
+        width:auto;
+        height:auto;
+        
+    }
+}
+@media only screen and (min-width: 600px) {
+    .classes_list {
+        width: 50%;
+        padding-left: 25%;
+        columns: 3;
+        -webkit-columns: 3;
+        -moz-columns: 3;
+    }
+    iframe {
+        display:flex;
+        justify-content: center;
+        margin-top: 2%;
+        width:auto;
+        min-width: 600px;
+        height:auto;
+        min-height: 450px;
+    }
+
+}
+
+.esports_video{
+    display: flex;
+    justify-content: center;
+}
+  
+.classes_listitem {
+    padding-top: 2%;
+    width: 20%;
+    height: 10%;
+}
+  
+.esport {
+    padding: 5%;
+    color: white;
+}
