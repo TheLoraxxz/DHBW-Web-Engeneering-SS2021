@@ -1,6 +1,7 @@
 <?php
-?>
-<div class="content">
+if(count($_GET)==1) {
+    echo '
+    <div class="content">
     <h1>Kontaktieren sie uns</h1>
     <form>
         <input type="text" placeholder="Vorname" required>
@@ -12,5 +13,14 @@
     </form>
     <button>Abschicken</button>
     <button>Abbrechen</button>
-</div>
+    </div>';
+} else {
+    echo '
+    <div>
+    
+    </div>
+    ';
+}
+?>
+
 
