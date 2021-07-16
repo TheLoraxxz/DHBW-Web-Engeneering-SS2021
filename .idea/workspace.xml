@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="zeug zum einschleimen beim Wierbicki">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt.php" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.php" afterDir="false" />
-    </list>
+    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="zeug zum einschleimen beim Wierbicki" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -382,7 +379,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="wow_part" />
+                        <option value="dev" />
                       </list>
                     </value>
                   </entry>
@@ -396,7 +393,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Erstes Font und Video funktioniert auf HOME" />
     <MESSAGE value="Redesign sodass es responsive ist" />
     <MESSAGE value="home.css angepasst sodass die Links wohinführen und gut aussehen" />
     <MESSAGE value="Neue Fonts+ eigentliche Home Webseite wird weiter schicker gemacht (mit übergang nun und zwei fetten buttons)" />
@@ -421,6 +417,7 @@
     <MESSAGE value="home.css angepasst dass es responsive auf allen drei gerätren ist" />
     <MESSAGE value="subscribe.css erste teilwebseite fertig" />
     <MESSAGE value="Mediq quereies fertig für subscribe.css, index.css, home.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mediq quereies fertig für subscribe.css, index.css, home.css" />
+    <MESSAGE value="grundstruktur" />
+    <option name="LAST_COMMIT_MESSAGE" value="grundstruktur" />
   </component>
 </project>
