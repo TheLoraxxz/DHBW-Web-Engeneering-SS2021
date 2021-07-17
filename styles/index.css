@@ -32,6 +32,7 @@ nav:hover{
 }
 nav div {
     display: flex;
+    position: sticky;
 }
 nav ul{
     list-style-type: none;

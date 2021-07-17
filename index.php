@@ -40,7 +40,7 @@ if(count($_GET)==0){
                         <ul id="general_stuff">
                             <li><a class="link" href="index.php">Spiele</a></li>
                             <li><a href="index.php?s=wow"><img src="./assets/img/world-of-warcraft-logo.svg" alt="World of Warcraft"></a></li>
-                            <li><a href="index.php"><img src="./assets/img/skyrim-logo.png" alt="Skyrim"></a></li>
+                            <li><a href="./scripts/skyrim.html"><img src="./assets/img/skyrim-logo.png" alt="Skyrim"></a></li>
                         </ul>
                         <div class="dropdown_nav">
                             <span>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="zeug zum einschleimen beim Wierbicki" />
+    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Fabian fertig (extra">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,11 +65,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\assets\img\skyrim" />
+      <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\scripts" />
       <recent name="$PROJECT_DIR$/assets/videos/WoW_Trailer" />
       <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\assets\img" />
-      <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\scripts" />
       <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering" />
-      <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\fonts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -116,6 +119,7 @@
       <workItem from="1625212996476" duration="11376000" />
       <workItem from="1625251286061" duration="79000" />
       <workItem from="1626445043866" duration="1694000" />
+      <workItem from="1626533569565" duration="1022000" />
     </task>
     <task id="LOCAL-00001" summary="First grundstruktur (ordner fehlen noch aus irgendeinem grund)">
       <created>1622190410231</created>
@@ -362,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625250660942</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Fabian fertig (extra">
+      <created>1626517406068</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1626517406068</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +390,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="dev" />
+                        <option value="origin/dev" />
                       </list>
                     </value>
                   </entry>
@@ -393,7 +404,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Redesign sodass es responsive ist" />
     <MESSAGE value="home.css angepasst sodass die Links wohinführen und gut aussehen" />
     <MESSAGE value="Neue Fonts+ eigentliche Home Webseite wird weiter schicker gemacht (mit übergang nun und zwei fetten buttons)" />
     <MESSAGE value="Fixed problem that it wont select anything else" />
@@ -418,6 +428,7 @@
     <MESSAGE value="subscribe.css erste teilwebseite fertig" />
     <MESSAGE value="Mediq quereies fertig für subscribe.css, index.css, home.css" />
     <MESSAGE value="grundstruktur" />
-    <option name="LAST_COMMIT_MESSAGE" value="grundstruktur" />
+    <MESSAGE value="Fabian fertig (extra" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fabian fertig (extra" />
   </component>
 </project>
