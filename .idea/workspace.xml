@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="zeug zum einschleimen beim Wierbicki" />
+    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Mediq quereies fertig für subscribe.css, index.css, home.css">
+      <change afterPath="$PROJECT_DIR$/assets/img/skyrim/Background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/skyrim/Dawnstar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/skyrim/DragonVsDragonborn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/skyrim/DragonVsDragonborn2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/skyrim/Facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/skyrim/Forest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/skyrim/Instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/skyrim/LinkedIn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/skyrim/Twitter2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/skyrim/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/skyrim/featureSkyrim.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/skyrim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/skyrim.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,11 +78,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\assets\img\skyrim" />
+      <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\scripts" />
       <recent name="$PROJECT_DIR$/assets/videos/WoW_Trailer" />
       <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\assets\img" />
-      <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\scripts" />
       <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering" />
-      <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\fonts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
