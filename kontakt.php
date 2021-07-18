@@ -18,7 +18,7 @@ if(count($_GET)==1) {
      <label>Telefonnumer:</label><input class="contact_input" type="text" placeholder="Telefonnummer" required name="telefon"></span>
      <hr>
      <div class="contact_textarea">
-        <textarea rows="15" type="text" id="anliegen_input" placeholder="Anliegen" required name="anliegen"></textarea>
+        <textarea rows="15" id="anliegen_input" placeholder="Anliegen" required name="anliegen"></textarea>
     </div>
         <input type="submit" value="Absenden" >
         <button onclick="window.location.href=\'index.php\'">Abbrechen</button>
