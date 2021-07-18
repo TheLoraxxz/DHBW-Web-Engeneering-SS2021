@@ -6,7 +6,7 @@ if(count($_GET)==0){
     $file_name="home";
 }elseif ($_GET['s']=="kontakt") {
     $name="Kontaktformular";
-    $file_name=$_GET['s'];
+    $file_name="kontakt";
 } elseif ($_GET['s']=="subscribe") {
     $name="Subscribe NOW!";
     $file_name="subscribe";
