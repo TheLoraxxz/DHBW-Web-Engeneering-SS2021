@@ -1,6 +1,8 @@
  <div class="site_background">
  <div class="header">
-    <img class="header_wallpaper" src="./assets/img/wow_wallpaper.jpg" />
+
+
+    <img class="header_wallpaper" src="./assets/img/wow_wallpaper.jpg" alt="Background" />
   </div>
   <div class="wow_description">
     World of Warcraft, abgekürzt WoW, ist ein über das Internet spielbares Computer-Rollenspiel (MMORPG) des Spielentwicklers
@@ -28,8 +30,8 @@
         <caption><h3>Rassen in Azeroth</h3></caption>
         <thead>
             <tr>
-              <th><h4>Allianz</h4></th>
-              <th><h4>Horde</h4></th>
+              <th>Allianz</th>
+              <th>Horde</th>
             </tr>
         </thead>
         <tbody>
@@ -64,7 +66,7 @@
     </table>
   </div>
     <div class="races_picture">
-      <img src="./assets/img/races.jpg" width="90%">
+      <img src="./assets/img/races.jpg" alt="Races of Wow" >
     </div>
   </div>
     <p>
@@ -120,7 +122,7 @@
         Gruppe zu sehen. Jeder der zwanzig Spieler hat eine genau definierte Rolle und die erdachte Taktik zum besiegen des Gegners muss genauestens ausgeführt werden. 
       </p>
       <div class="esports_video">
-        <iframe src="https://www.youtube.com/embed/19tXeHJns1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        <iframe src="https://www.youtube.com/embed/19tXeHJns1E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       </div>
 </div>

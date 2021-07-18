@@ -50,6 +50,9 @@
     padding-left: 5%;
     padding-top: 4%;
 }
+.races_picture img {
+    width:90%;
+}
   
 .wow_klassenwahl {
     padding-left: 5%;
@@ -111,7 +114,9 @@
     }
 
 }
-
+iframe {
+    border: 0;
+}
 .esports_video{
     display: flex;
     justify-content: center;
