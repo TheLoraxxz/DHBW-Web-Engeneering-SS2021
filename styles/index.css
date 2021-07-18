@@ -159,18 +159,16 @@ footer a,footer a:hover,footer a:visited,footer a:active, footer a:focus {
     text-decoration: none;
     color: #c3c3c3;
 }
-footer p {
-    color: white;
-    text-align: center;
-}
 
-footer p {
+.footer_marken{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    color: white;
+    text-align: center;
 }
 @media only screen and (max-width: 600px) {
-    footer p{
+    .footer_marken{
         width: 80%;
     }
 }

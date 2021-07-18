@@ -10,27 +10,27 @@
         Your Video is not supported by your browser
     </video>
     <div id="info_container">
-    <span id="buy">
-        <p>Spiele kaufen</p>
-        <ul id="buy_cont">
-            <li>
-                <a href="https://eu.shop.battle.net/de-de/product/world-of-warcraft-shadowlands?gclid=Cj0KCQjwk4yGBhDQARIsACGfAeu6uKM4l4s5HsZLJu5H6rkdkm9F4CTuVAJU0fp1gT0FWFDX1T7O5yQaAt6eEALw_wcB&gclsrc=aw.ds" target="_blank">World of Warcraft</a>
-            </li>
-            <li>
-                <a href="https://store.steampowered.com/app/72850/The_Elder_Scrolls_V_Skyrim/" target="_blank">The Elder Scrolls V</a>
-            </li>
-        </ul>
-    </span>
-    <span id="trail">
-        <p>Trailer sehen</p>
-        <ul>
-            <li id="trail_cont">
-                <a href="https://www.youtube.com/watch?v=vlVSJ0AvZe0" target="_blank">World of Warcraft</a>
-            </li>
-            <li><a href="https://www.youtube.com/watch?v=JSRtYpNRoN0" target="_blank">The Elder Scrolls 5</a>
-            </li>
-        </ul>
-    </span>
+        <section id="buy">
+            <p>Spiele kaufen</p>
+            <ul id="buy_cont">
+                <li>
+                    <a href="https://eu.shop.battle.net/de-de/product/world-of-warcraft-shadowlands?gclid=Cj0KCQjwk4yGBhDQARIsACGfAeu6uKM4l4s5HsZLJu5H6rkdkm9F4CTuVAJU0fp1gT0FWFDX1T7O5yQaAt6eEALw_wcB&gclsrc=aw.ds" target="_blank">World of Warcraft</a>
+                </li>
+                <li>
+                    <a href="https://store.steampowered.com/app/72850/The_Elder_Scrolls_V_Skyrim/" target="_blank">The Elder Scrolls V</a>
+                </li>
+            </ul>
+        </section>
+        <section id="trail">
+            <p>Trailer sehen</p>
+            <ul>
+                <li id="trail_cont">
+                    <a href="https://www.youtube.com/watch?v=vlVSJ0AvZe0" target="_blank">World of Warcraft</a>
+                </li>
+                <li><a href="https://www.youtube.com/watch?v=JSRtYpNRoN0" target="_blank">The Elder Scrolls 5</a>
+                </li>
+            </ul>
+        </section>
     </div>
 </div>
 <div id="uebergang"></div>
@@ -56,6 +56,6 @@
     Durch das Subscriben bekommen wir ein wenig Geld und können unsere Webseite:
     <em>lovedgames.de</em> aufrecht erhalten können.
     Wir werden Ihnen dazu dann in naher Zukunft die Updates zusenden.</p>
-    <button><a href="index.php?s=subscribe"><i class="fas fa-newspaper fa-4x"></i></a></button>
+    <button onclick="location.href='index.php?s=subscribe'"><i class="fas fa-newspaper fa-4x"></i></button>
     </article>
 </div>

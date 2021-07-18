@@ -79,8 +79,8 @@ if(count($_GET)==0){
                         <a href="index.php?s=Impressum">Impressum</a>
                         <a href="index.php?s=datsec">Datenschutz</a>
                     </span>
-                    <span>
-                        <p>Die jeweiligen Marken gehören den jeweiligen Firmen</p>
+                    <span class="footer_marken">
+                        Die jeweiligen Marken gehören den jeweiligen Firmen
                     </span>
                 </div>
             </footer>

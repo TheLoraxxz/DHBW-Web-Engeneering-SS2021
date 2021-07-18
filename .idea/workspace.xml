@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Fabian fertig (extra">
-      <change afterPath="$PROJECT_DIR$/assets/audio/Grille_Zirpen.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datenschutz.html" beforeDir="false" afterPath="$PROJECT_DIR$/datenschutz.html" afterDir="false" />
+    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Added Audio /abbr">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626517406068</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Added Audio /abbr">
+      <created>1626616929011</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1626616929011</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +414,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="home.css angepasst sodass die Links wohinführen und gut aussehen" />
     <MESSAGE value="Neue Fonts+ eigentliche Home Webseite wird weiter schicker gemacht (mit übergang nun und zwei fetten buttons)" />
     <MESSAGE value="Fixed problem that it wont select anything else" />
     <MESSAGE value="Deleted unnaccassary stuff + designed fooder and made it look pretty" />
@@ -430,6 +438,7 @@
     <MESSAGE value="Mediq quereies fertig für subscribe.css, index.css, home.css" />
     <MESSAGE value="grundstruktur" />
     <MESSAGE value="Fabian fertig (extra" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fabian fertig (extra" />
+    <MESSAGE value="Added Audio /abbr" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Audio /abbr" />
   </component>
 </project>
