@@ -48,7 +48,7 @@ if(count($_GET)==1) {
     ');
 } elseif($_GET["sub"]=="cos"){
     $type = $_GET["type"];
-    echo('
+    echo(' 
         <div class="in_content">
             <h1>Bitte Daten eingeben</h1>
             <form method="get" action="index.php" id="form">
