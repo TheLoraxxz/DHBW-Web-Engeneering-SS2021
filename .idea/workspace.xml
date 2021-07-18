@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Fabian fertig (extra">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/audio/Grille_Zirpen.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datenschutz.html" beforeDir="false" afterPath="$PROJECT_DIR$/datenschutz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/home.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,7 @@
     <branch-grouping />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="cbd2e7855440049b515ce0df906e5831d58478d9" />
+        <entry key="$PROJECT_DIR$" value="2741d4b4e8622dfcc997951f61d762db1847e463" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,11 +66,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\assets\audio" />
       <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\assets\img\skyrim" />
       <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\scripts" />
       <recent name="$PROJECT_DIR$/assets/videos/WoW_Trailer" />
       <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\assets\img" />
-      <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -390,7 +391,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/dev" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
