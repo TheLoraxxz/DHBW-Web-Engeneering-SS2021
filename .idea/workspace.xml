@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Wow fertig designed">
+    <list default="true" id="8d7f6f3c-21c8-42e9-adb6-8b1e06804490" name="Default Changelist" comment="Skyrim etwas geändert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/skyrim.html" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/skyrim.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/skyrim.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/skyrim.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +66,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\styles" />
+      <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\scripts" />
       <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\assets\audio" />
       <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\assets\img\skyrim" />
-      <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\scripts" />
       <recent name="$PROJECT_DIR$/assets/videos/WoW_Trailer" />
-      <recent name="D:\Programme\Programmieren\XAMP aka PHPserver\htdocs\Web_Engeneering\assets\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -120,6 +121,7 @@
       <workItem from="1625251286061" duration="79000" />
       <workItem from="1626445043866" duration="1694000" />
       <workItem from="1626533569565" duration="1022000" />
+      <workItem from="1626704827347" duration="343000" />
     </task>
     <task id="LOCAL-00001" summary="First grundstruktur (ordner fehlen noch aus irgendeinem grund)">
       <created>1622190410231</created>
@@ -408,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626618117235</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Skyrim etwas geändert">
+      <created>1626618423676</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1626618423676</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +448,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Footer fertig designed und impressum.html richtig eingebunden" />
     <MESSAGE value="kontakt.php mit basic formular hinzugefügt (!noch nicht formatiert) + datenschutz.html hinzugefügt" />
     <MESSAGE value="Impressum bearbeitet" />
     <MESSAGE value="Umdesign des Img in home.php" />
@@ -464,6 +472,7 @@
     <MESSAGE value="index and home is W3C Online approved" />
     <MESSAGE value="Tillmanns stuff ist fertig" />
     <MESSAGE value="Wow fertig designed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wow fertig designed" />
+    <MESSAGE value="Skyrim etwas geändert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Skyrim etwas geändert" />
   </component>
 </project>
